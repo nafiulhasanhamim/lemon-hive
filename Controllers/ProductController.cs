@@ -34,6 +34,7 @@ namespace ProductAPI.Controllers
 
             if (cachedProducts is not null)
             {
+                Console.WriteLine("from cached product data");
                 return ApiResponse.Success(new { result = cachedProducts });
             }
 
@@ -78,7 +79,6 @@ namespace ProductAPI.Controllers
             var createdProduct = await _productService.CreateProductAsync(productDto);
             string cacheKey = $"product:{createdProduct.ProductId}";
             await _cache.SetDataAsync(cacheKey, createdProduct, TimeSpan.FromMinutes(10));
-
 
             await _cache.RemoveByPrefixAsync("products");
 
