@@ -18,9 +18,17 @@ var builder = WebApplication.CreateBuilder(args);
 // For Entity Framework
 var configuration = builder.Configuration;
 
+// builder.Services.AddSingleton<CategoryService>();
+
+builder.Services.AddScoped<IUserManagement, UserManagementService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 //for redis
 builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();
+
+//RabbitMQ
+builder.Services.AddSingleton<IRabbmitMQCartMessageSender, RabbmitMQCartMessageSender>();
+builder.Services.AddHostedService<RabbitMQConsumer>();
 
 //background job
 builder.Services.AddHostedService<BackgroundServices>();
@@ -38,10 +46,12 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddStackExchangeRedisCache(option =>
 {
     option.Configuration = builder.Configuration.GetConnectionString("Redis");
-    option.InstanceName = "lemonhive";
+    option.InstanceName = "ecommerce";
 });
 
 
+// For Identity
+// builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
@@ -90,12 +100,16 @@ builder.Services.AddAuthentication(options =>
 
     options.Events = new JwtBearerEvents
     {
+        //for signalHub
         OnMessageReceived = context =>
         {
             var accessToken = context.Request.Query["access_token"];
             var path = context.HttpContext.Request.Path;
 
             if (!string.IsNullOrEmpty(accessToken))
+            // &&
+            // (path.StartsWithSegments("/notificationHub") || path.StartsWithSegments("/demoHub") ||
+            // path.StartsWithSegments("/adminHub"))
             {
                 context.Token = accessToken;
             }
@@ -105,6 +119,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+//Add Email Configs
 var emailConfig = configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
 builder.Services.AddSingleton(emailConfig);
 
@@ -164,6 +179,23 @@ builder.Services.AddSwaggerGen(option =>
 
 var app = builder.Build();
 
+
+//this is required when using docker for automigration
+
+// ✅ **Apply Migrations Automatically for docker**
+// using (var scope = app.Services.CreateScope())
+// {
+//     var services = scope.ServiceProvider;
+//     try
+//     {
+//         var context = services.GetRequiredService<AppDbContext>();
+//         context.Database.Migrate(); // Apply pending migrations
+//     }
+//     catch (Exception ex)
+//     {
+//         Console.WriteLine($"Migration failed: {ex.Message}");
+//     }
+// }
 
 
 // Configure the HTTP request pipeline.
