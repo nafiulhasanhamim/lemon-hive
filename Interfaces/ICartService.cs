@@ -4,7 +4,7 @@ namespace CartAPI.Interfaces
 {
     public interface ICartService
     {
-        Task<IEnumerable<CartDetailDto>> GetAllCartsAsync();
+        Task<CartListResponse> GetAllCartsAsync();
         Task<CartDetailDto> AddToCartAsync(AddToCartDto addToCartDto);
 
     }

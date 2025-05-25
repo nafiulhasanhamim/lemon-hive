@@ -41,16 +41,29 @@ namespace CartAPI.Controllers
         [HttpPost("create")]
         public async Task<IActionResult> AddToCartDto([FromBody] AddToCartDto addToCartDto)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var createdCart = await _cartService.AddToCartAsync(addToCartDto);
+
+                await _cache.RemoveByPrefixAsync("carts");
+
+                return ApiResponse.Created(createdCart, "Cart created");
             }
 
-            var createdCart = await _cartService.AddToCartAsync(addToCartDto);
+            catch (Exception ex)
+            {
+                if (ex.Message == "Item already exists in the cart.")
+                {
+                    return ApiResponse.BadRequest("Item already exists in the cart.");
+                }
+                return ApiResponse.BadRequest(ex.Message);
+            }
 
-            await _cache.RemoveByPrefixAsync("carts");
-
-            return ApiResponse.Created(createdCart, "Cart created");
         }
     }
 }
