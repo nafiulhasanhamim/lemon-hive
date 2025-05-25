@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using ProductAPI.Models;
+using CartAPI.Models;
 
 
 namespace dotnet_mvc.data
@@ -22,6 +23,7 @@ namespace dotnet_mvc.data
                .HasIndex(p => p.ProductName);
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Cart> Carts { get; set; }
 
         private static void SeedRoles(ModelBuilder builder)
         {

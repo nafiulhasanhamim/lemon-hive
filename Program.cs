@@ -1,4 +1,5 @@
 using System.Text;
+using CartAPI.Interfaces;
 using dotnet_mvc.data;
 using dotnet_mvc.Interfaces;
 using dotnet_mvc.Models;
@@ -23,6 +24,7 @@ var configuration = builder.Configuration;
 builder.Services.AddScoped<IUserManagement, UserManagementService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICartService, CartService>();
 
 //for redis
 builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();
