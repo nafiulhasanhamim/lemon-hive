@@ -167,3 +167,4 @@ E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\refint
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\lemonhive.pdb
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\lemonhive.genruntimeconfig.cache
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\ref\lemonhive.dll
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\lemonhive.sourcelink.json

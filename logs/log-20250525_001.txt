@@ -3,3 +3,4 @@
 2025-05-25 17:58:20.884 +06:00 [INF] HTTP POST /api/Authentication responded 200 in 4489.1485 ms
 2025-05-25 17:58:38.160 +06:00 [INF] HTTP GET /api/Authentication/ConfirmEmail responded 200 in 150.2254 ms
 2025-05-25 17:58:38.392 +06:00 [INF] HTTP GET /favicon.ico responded 404 in 2.1062 ms
+2025-05-25 18:59:32 [Information] Starting MyApp...

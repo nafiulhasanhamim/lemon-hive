@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /App
 
-COPY lemonhives.csproj ./
+COPY lemonhive.csproj ./
 RUN dotnet restore
 
 COPY Program.cs ./Program.cs
@@ -16,7 +16,7 @@ COPY DTOs/ ./DTOs
 COPY Enums/ ./Enums
 COPY Extensions/ ./Extensions
 COPY Interfaces/ ./Interfaces
-COPY Profiles/ ./Profiles
+# COPY Profiles/ ./Profiles
 COPY Migrations/ ./Migrations
 COPY RabbitMQ/ ./RabbitMQ
 COPY data/ ./data
@@ -44,4 +44,4 @@ EXPOSE 8000
 ENV ASPNETCORE_URLS=http://+:8000
 
 # Run the application
-ENTRYPOINT ["dotnet", "lemonhives.dll"]
+ENTRYPOINT ["dotnet", "lemonhive.dll"]
