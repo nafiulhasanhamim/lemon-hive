@@ -18,8 +18,6 @@ var builder = WebApplication.CreateBuilder(args);
 // For Entity Framework
 var configuration = builder.Configuration;
 
-// builder.Services.AddSingleton<CategoryService>();
-
 builder.Services.AddScoped<IUserManagement, UserManagementService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 
@@ -107,9 +105,6 @@ builder.Services.AddAuthentication(options =>
             var path = context.HttpContext.Request.Path;
 
             if (!string.IsNullOrEmpty(accessToken))
-            // &&
-            // (path.StartsWithSegments("/notificationHub") || path.StartsWithSegments("/demoHub") ||
-            // path.StartsWithSegments("/adminHub"))
             {
                 context.Token = accessToken;
             }
@@ -178,25 +173,6 @@ builder.Services.AddSwaggerGen(option =>
 });
 
 var app = builder.Build();
-
-
-//this is required when using docker for automigration
-
-// ✅ **Apply Migrations Automatically for docker**
-// using (var scope = app.Services.CreateScope())
-// {
-//     var services = scope.ServiceProvider;
-//     try
-//     {
-//         var context = services.GetRequiredService<AppDbContext>();
-//         context.Database.Migrate(); // Apply pending migrations
-//     }
-//     catch (Exception ex)
-//     {
-//         Console.WriteLine($"Migration failed: {ex.Message}");
-//     }
-// }
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
