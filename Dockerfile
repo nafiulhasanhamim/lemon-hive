@@ -16,7 +16,7 @@ COPY DTOs/ ./DTOs
 COPY Enums/ ./Enums
 COPY Extensions/ ./Extensions
 COPY Interfaces/ ./Interfaces
-# COPY Profiles/ ./Profiles
+COPY Mappers/ ./Mappers
 COPY Migrations/ ./Migrations
 COPY RabbitMQ/ ./RabbitMQ
 COPY data/ ./data
