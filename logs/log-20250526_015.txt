@@ -1,0 +1,12 @@
+2025-05-26 02:00:43.424 +06:00 [INF] Starting MyApp...
+2025-05-26 02:00:57.366 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-26 02:01:00.911 +06:00 [INF] HTTP GET /api/Product responded 200 in 3541.6264 ms
+2025-05-26 02:01:08.674 +06:00 [INF] HTTP GET /api/Product responded 200 in 27.3744 ms
+2025-05-26 02:01:23.179 +06:00 [INF] HTTP POST /api/Product/create responded 201 in 178.7657 ms
+2025-05-26 02:01:31.009 +06:00 [INF] HTTP GET /api/Product responded 200 in 78.9998 ms
+2025-05-26 02:01:36.243 +06:00 [INF] HTTP GET /api/Product responded 200 in 3.0064 ms
+2025-05-26 02:01:43.773 +06:00 [INF] HTTP POST /api/Product/create responded 201 in 8.2717 ms
+2025-05-26 02:01:53.561 +06:00 [INF] HTTP GET /api/Product responded 200 in 5.3616 ms
+2025-05-26 02:01:58.413 +06:00 [INF] HTTP GET /api/Product responded 200 in 1.4149 ms
+2025-05-26 02:02:22.264 +06:00 [INF] HTTP GET /api/Product/30a973f7-5dd7-45c1-9049-873417f15376 responded 200 in 46.7810 ms
+2025-05-26 02:02:28.714 +06:00 [INF] HTTP GET /api/Product/30a973f7-5dd7-45c1-9049-873417f15376 responded 200 in 1.3805 ms

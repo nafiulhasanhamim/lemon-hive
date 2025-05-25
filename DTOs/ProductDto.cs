@@ -18,6 +18,7 @@ namespace ProductAPI.DTOs
         public DateTime? DiscountStart { get; set; }
 
         public DateTime? DiscountEnd { get; set; }
+        public decimal DiscountedPrice { get; set; }
     }
     public class CreateProductDto : IValidatableObject
     {

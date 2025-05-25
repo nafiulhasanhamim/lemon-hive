@@ -1,0 +1,17 @@
+2025-05-26 01:54:56.924 +06:00 [INF] Starting MyApp...
+2025-05-26 01:55:01.988 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-26 01:55:05.422 +06:00 [INF] HTTP POST /api/Product/create responded 201 in 3430.9102 ms
+2025-05-26 01:55:13.901 +06:00 [INF] HTTP GET /api/Product responded 200 in 44.9138 ms
+2025-05-26 01:55:29.192 +06:00 [INF] HTTP GET /api/Cart responded 200 in 683.6526 ms
+2025-05-26 02:00:43 [Information] Starting MyApp...
+2025-05-26 02:00:57 [Warning] Failed to determine the https port for redirect.
+2025-05-26 02:01:00 [Information] HTTP "GET" "/api/Product" responded 200 in 3541.6264 ms
+2025-05-26 02:01:08 [Information] HTTP "GET" "/api/Product" responded 200 in 27.3744 ms
+2025-05-26 02:01:23 [Information] HTTP "POST" "/api/Product/create" responded 201 in 178.7657 ms
+2025-05-26 02:01:31 [Information] HTTP "GET" "/api/Product" responded 200 in 78.9998 ms
+2025-05-26 02:01:36 [Information] HTTP "GET" "/api/Product" responded 200 in 3.0064 ms
+2025-05-26 02:01:43 [Information] HTTP "POST" "/api/Product/create" responded 201 in 8.2717 ms
+2025-05-26 02:01:53 [Information] HTTP "GET" "/api/Product" responded 200 in 5.3616 ms
+2025-05-26 02:01:58 [Information] HTTP "GET" "/api/Product" responded 200 in 1.4149 ms
+2025-05-26 02:02:22 [Information] HTTP "GET" "/api/Product/30a973f7-5dd7-45c1-9049-873417f15376" responded 200 in 46.7810 ms
+2025-05-26 02:02:28 [Information] HTTP "GET" "/api/Product/30a973f7-5dd7-45c1-9049-873417f15376" responded 200 in 1.3805 ms
