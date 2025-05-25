@@ -35,6 +35,22 @@ namespace ProductAPI.Controllers
             if (cachedProducts is not null)
             {
                 Console.WriteLine("from cached product data");
+
+                // There be a edge case, as I use redis for caching 
+                // product data(including discounted price) 
+                // for, say, 10 minutes.Some products have discounts that expire 
+                // within those 10 minutes.If I return cached data, 
+                // it might show a discount that has already expired because 
+                // the cached data doesn’t know the time passed. So handle the discountedPrice 
+                // after caching the data
+
+                foreach (var p in cachedProducts.Items)
+                {
+                    p.DiscountedPrice = (
+                        DateTime.UtcNow >= p.DiscountStart && DateTime.UtcNow < p.DiscountEnd)
+                        ? p.Price * 0.75m
+                        : p.Price;
+                }
                 return ApiResponse.Success(new { result = cachedProducts });
             }
 
@@ -53,6 +69,10 @@ namespace ProductAPI.Controllers
             if (cachedProduct is not null)
             {
                 Console.WriteLine("from cached product data");
+                cachedProduct.DiscountedPrice = (
+                DateTime.UtcNow >= cachedProduct.DiscountStart && DateTime.UtcNow < cachedProduct.DiscountEnd)
+                ? cachedProduct.Price * 0.75m
+                : cachedProduct.Price;
 
                 return ApiResponse.Success(cachedProduct, "Product from cache");
             }
