@@ -1,3 +1,6 @@
 2025-05-26 01:40:31.265 +06:00 [INF] Starting MyApp...
 2025-05-26 01:40:31.780 +06:00 [WRN] Failed to determine the https port for redirect.
 2025-05-26 01:40:34.742 +06:00 [INF] HTTP GET /api/Product responded 200 in 2951.3577 ms
+2025-05-26 01:46:32 [Information] Starting MyApp...
+2025-05-26 01:46:37 [Warning] Failed to determine the https port for redirect.
+2025-05-26 01:46:41 [Information] HTTP "GET" "/api/Cart" responded 200 in 4444.7603 ms

@@ -11,29 +11,16 @@ namespace CartAPI.Controllers
     public class CartController : ControllerBase
     {
         private readonly ICartService _cartService;
-        private readonly IRedisCacheService _cache;
-
-        public CartController(ICartService cartService, IRedisCacheService cache)
+        public CartController(ICartService cartService)
         {
             _cartService = cartService;
-            _cache = cache;
         }
 
         // Get all items in the cart (with caching)
         [HttpGet]
         public async Task<IActionResult> GetAllCarts()
         {
-            string cacheKey = $"products";
-            var cachedCarts = await _cache.GetDataAsync<IEnumerable<CartDetailDto>>(cacheKey);
-
-            if (cachedCarts is not null)
-            {
-                Console.WriteLine("from cached carts data");
-                return ApiResponse.Success(new { result = cachedCarts });
-            }
-
             var cartList = await _cartService.GetAllCartsAsync();
-            await _cache.SetDataAsync(cacheKey, cartList);
 
             return ApiResponse.Success(cartList, "Carts returned successfully");
         }
@@ -49,9 +36,6 @@ namespace CartAPI.Controllers
                 }
 
                 var createdCart = await _cartService.AddToCartAsync(addToCartDto);
-
-                await _cache.RemoveByPrefixAsync("carts");
-
                 return ApiResponse.Created(createdCart, "Cart created");
             }
 
