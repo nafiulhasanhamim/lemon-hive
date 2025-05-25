@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using dotnet_mvc.data;
@@ -11,9 +12,11 @@ using dotnet_mvc.data;
 namespace celebrations.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250525164117_InitialCreate1")]
+    partial class InitialCreate1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,14 +53,14 @@ namespace celebrations.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "079c069e-0fdb-4cdb-9d75-08d3c86bbbf7",
+                            Id = "b2f12e99-e4f9-48b1-b5a4-57334f82ca28",
                             ConcurrencyStamp = "1",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "898d5668-412c-4263-b3bd-666d7bc6cbaa",
+                            Id = "9ed08212-d68c-4cc5-b7b9-a7d9d27497d1",
                             ConcurrencyStamp = "2",
                             Name = "User",
                             NormalizedName = "USER"
@@ -168,71 +171,6 @@ namespace celebrations.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
-                });
-
-            modelBuilder.Entity("ProductAPI.Models.Product", b =>
-                {
-                    b.Property<string>("ProductId")
-                        .HasColumnType("text");
-
-                    b.Property<DateTime>("DiscountEnd")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<DateTime>("DiscountStart")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
-
-                    b.Property<string>("ProductImage")
-                        .HasColumnType("text");
-
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("character varying(255)");
-
-                    b.Property<string>("Slug")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("ProductId");
-
-                    b.HasIndex("ProductName");
-
-                    b.ToTable("Products");
-
-                    b.HasData(
-                        new
-                        {
-                            ProductId = "6e2880d8-826c-4e41-8ccf-20e850f50698",
-                            DiscountEnd = new DateTime(2025, 6, 1, 17, 13, 33, 125, DateTimeKind.Utc).AddTicks(9878),
-                            DiscountStart = new DateTime(2025, 5, 25, 17, 13, 33, 125, DateTimeKind.Utc).AddTicks(9875),
-                            Price = 25.99m,
-                            ProductImage = "mouse.jpg",
-                            ProductName = "Wireless Mouse",
-                            Slug = "wireless-mouse"
-                        },
-                        new
-                        {
-                            ProductId = "e03e0c53-8b68-4274-a3cc-f6dd469e87ce",
-                            DiscountEnd = new DateTime(2025, 6, 1, 17, 13, 33, 125, DateTimeKind.Utc).AddTicks(9888),
-                            DiscountStart = new DateTime(2025, 5, 25, 17, 13, 33, 125, DateTimeKind.Utc).AddTicks(9888),
-                            Price = 79.99m,
-                            ProductImage = "keyboard.jpg",
-                            ProductName = "Mechanical Keyboard",
-                            Slug = "mechanical-keyboard"
-                        },
-                        new
-                        {
-                            ProductId = "b8035b58-85ef-42ca-bdaa-f52bd7099041",
-                            DiscountEnd = new DateTime(2025, 6, 4, 17, 13, 33, 125, DateTimeKind.Utc).AddTicks(9892),
-                            DiscountStart = new DateTime(2025, 5, 25, 17, 13, 33, 125, DateTimeKind.Utc).AddTicks(9891),
-                            Price = 199.99m,
-                            ProductImage = "monitor.jpg",
-                            ProductName = "HD Monitor",
-                            Slug = "hd-monitor"
-                        });
                 });
 
             modelBuilder.Entity("dotnet_mvc.Models.ApplicationUser", b =>
