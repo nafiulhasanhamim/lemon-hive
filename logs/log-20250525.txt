@@ -1,0 +1,5 @@
+2025-05-25 17:56:19 [Information] Starting MyApp...
+2025-05-25 17:58:16 [Warning] Failed to determine the https port for redirect.
+2025-05-25 17:58:20 [Information] HTTP "POST" "/api/Authentication" responded 200 in 4489.1485 ms
+2025-05-25 17:58:38 [Information] HTTP "GET" "/api/Authentication/ConfirmEmail" responded 200 in 150.2254 ms
+2025-05-25 17:58:38 [Information] HTTP "GET" "/favicon.ico" responded 404 in 2.1062 ms

@@ -1,0 +1,5 @@
+2025-05-25 17:56:19.779 +06:00 [INF] Starting MyApp...
+2025-05-25 17:58:16.389 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-25 17:58:20.884 +06:00 [INF] HTTP POST /api/Authentication responded 200 in 4489.1485 ms
+2025-05-25 17:58:38.160 +06:00 [INF] HTTP GET /api/Authentication/ConfirmEmail responded 200 in 150.2254 ms
+2025-05-25 17:58:38.392 +06:00 [INF] HTTP GET /favicon.ico responded 404 in 2.1062 ms
