@@ -51,29 +51,11 @@ namespace ProductAPI.Services
             }
 
             var totalCount = await query.CountAsync();
-            var products = await query.Skip((pageNumber - 1) * pageSize)
+            var items = await query.Skip((pageNumber - 1) * pageSize)
             .Take(pageSize)
+            .ProjectTo<GetProductDto>(_mapper.ConfigurationProvider)
             .AsNoTracking()
             .ToListAsync();
-
-            var items = products.Select(p =>
-               {
-                   var discountedPrice = DateTime.UtcNow < p.DiscountEnd && DateTime.UtcNow >= p.DiscountStart
-                   ? p.Price * 0.75m
-                   : p.Price;
-
-                   return new GetProductDto
-                   {
-                       ProductId = p.ProductId,
-                       ProductName = p.ProductName,
-                       ProductImage = p.ProductImage,
-                       Slug = p.Slug,
-                       Price = p.Price,
-                       DiscountStart = p.DiscountStart,
-                       DiscountEnd = p.DiscountEnd,
-                       DiscountedPrice = discountedPrice
-                   };
-               }).ToList();
 
             return new PaginatedResult<GetProductDto>
             {
@@ -88,19 +70,7 @@ namespace ProductAPI.Services
         {
             var foundProduct = await _appDbContext.Products.AsNoTracking()
                                            .FirstOrDefaultAsync(c => c.ProductId == productId);
-
-            if (foundProduct == null)
-                return null;
-
-            var productDto = _mapper.Map<GetProductDto>(foundProduct);
-
-            var discountedPrice = DateTime.UtcNow < foundProduct.DiscountEnd && DateTime.UtcNow >= foundProduct.DiscountStart
-                ? foundProduct.Price * 0.75m // 25% discount
-                : foundProduct.Price;
-
-            productDto.DiscountedPrice = discountedPrice;
-
-            return productDto;
+            return foundProduct == null ? null : _mapper.Map<GetProductDto>(foundProduct);
         }
 
         public async Task<GetProductDto> CreateProductAsync(CreateProductDto productDto)
@@ -118,4 +88,3 @@ namespace ProductAPI.Services
     }
 
 }
-
