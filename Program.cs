@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using ProductAPI.Interfaces;
+using ProductAPI.Services;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +22,7 @@ var configuration = builder.Configuration;
 
 builder.Services.AddScoped<IUserManagement, UserManagementService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 //for redis
 builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();

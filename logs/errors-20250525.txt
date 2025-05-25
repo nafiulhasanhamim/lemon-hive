@@ -1,6 +1,3 @@
-2025-05-25 18:59:32.780 +06:00 [INF] Starting MyApp...
-2025-05-25 23:14:05 [Information] Starting MyApp...
-2025-05-25 23:16:24 [Warning] Failed to determine the https port for redirect.
 2025-05-25 23:16:26 [Error] HTTP "GET" "/api/Product" responded 500 in 1587.3850 ms
 System.InvalidOperationException: Unable to resolve service for type 'ProductAPI.Interfaces.IProductService' while attempting to activate 'ProductAPI.Controllers.ProductController'.
    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
