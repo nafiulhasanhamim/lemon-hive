@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - E-Bazaar</title>
+
+    <!-- Global site CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <!-- Page-specific CSS -->
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            @* <a class="logo" asp-page="/Index">E-Bazaar</a> *@
+            <nav>
+
+</nav>
+
+        </div>
+        <hr />
+    </header>
+
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+
+    <footer class="container">
+        <hr />
+        <p>&copy; @DateTime.UtcNow.Year – E-Bazaar</p>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

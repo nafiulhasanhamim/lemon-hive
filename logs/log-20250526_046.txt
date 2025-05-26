@@ -1,0 +1,13 @@
+2025-05-26 17:20:39.147 +06:00 [INF] Starting MyApp...
+2025-05-26 17:20:45.109 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-26 17:20:48.536 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3417.3110 ms
+2025-05-26 17:20:48.773 +06:00 [INF] HTTP GET /Products/headphones.jpg responded 404 in 0.9686 ms
+2025-05-26 17:20:48.773 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.9685 ms
+2025-05-26 17:20:48.773 +06:00 [INF] HTTP GET /Products/ssd.jpg responded 404 in 0.9443 ms
+2025-05-26 17:20:48.773 +06:00 [INF] HTTP GET /Products/keyboard.jpg responded 404 in 0.8858 ms
+2025-05-26 17:20:48.773 +06:00 [INF] HTTP GET /Products/string responded 404 in 1.7422 ms
+2025-05-26 17:20:48.775 +06:00 [INF] HTTP GET /Products/chair.jpg responded 404 in 3.3093 ms
+2025-05-26 17:20:48.785 +06:00 [INF] HTTP GET /Products/webcam.jpg responded 404 in 0.2115 ms
+2025-05-26 17:20:48.785 +06:00 [INF] HTTP GET /Products/tv.jpg responded 404 in 0.1116 ms
+2025-05-26 17:20:48.785 +06:00 [INF] HTTP GET /Products/monitor27.jpg responded 404 in 0.0930 ms
+2025-05-26 17:20:48.794 +06:00 [INF] HTTP GET /placeholder.svg responded 404 in 6.9151 ms
