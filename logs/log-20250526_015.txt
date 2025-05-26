@@ -10,3 +10,18 @@
 2025-05-26 02:01:58.413 +06:00 [INF] HTTP GET /api/Product responded 200 in 1.4149 ms
 2025-05-26 02:02:22.264 +06:00 [INF] HTTP GET /api/Product/30a973f7-5dd7-45c1-9049-873417f15376 responded 200 in 46.7810 ms
 2025-05-26 02:02:28.714 +06:00 [INF] HTTP GET /api/Product/30a973f7-5dd7-45c1-9049-873417f15376 responded 200 in 1.3805 ms
+2025-05-26 07:40:12 [Information] Starting MyApp...
+2025-05-26 07:40:19 [Warning] Failed to determine the https port for redirect.
+2025-05-26 07:40:25 [Warning] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-26 07:40:25 [Warning] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-05-26 07:40:25 [Information] HTTP "GET" "/Products" responded 200 in 5716.1713 ms
+2025-05-26 07:40:25 [Warning] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-05-26 07:40:25 [Information] HTTP "GET" "/favicon.ico" responded 404 in 0.8941 ms
+2025-05-26 08:00:42 [Information] HTTP "GET" "/Index" responded 404 in 11.4834 ms
+2025-05-26 08:01:08 [Information] HTTP "GET" "/Index" responded 404 in 0.2080 ms
+2025-05-26 08:01:36 [Information] HTTP "GET" "/Products/Index" responded 200 in 235.6022 ms
+2025-05-26 08:01:36 [Warning] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-05-26 08:02:04 [Information] HTTP "GET" "/Products/Index" responded 200 in 77.4309 ms
+2025-05-26 08:02:04 [Warning] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-05-26 08:02:57 [Information] HTTP "GET" "/Index" responded 404 in 0.0914 ms
+2025-05-26 08:03:00 [Information] HTTP "GET" "/Index" responded 404 in 0.0956 ms

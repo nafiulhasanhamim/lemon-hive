@@ -168,3 +168,6 @@ E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\lemonh
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\lemonhive.genruntimeconfig.cache
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\ref\lemonhive.dll
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\lemonhive.sourcelink.json
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\lemonhive.RazorAssemblyInfo.cache
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\obj\Debug\net8.0\lemonhive.RazorAssemblyInfo.cs
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\bin\Debug\net8.0\lemonhive.staticwebassets.runtime.json
