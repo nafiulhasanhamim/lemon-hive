@@ -1,0 +1,18 @@
+2025-05-26 14:23:34.629 +06:00 [INF] Starting MyApp...
+2025-05-26 14:23:46.191 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-26 14:23:52.103 +06:00 [INF] HTTP GET /api/Products responded 200 in 5899.9032 ms
+2025-05-26 14:24:00.686 +06:00 [INF] HTTP GET /api/Products responded 200 in 25.6985 ms
+2025-05-26 14:24:14.674 +06:00 [INF] HTTP POST /api/Products responded 400 in 85.5580 ms
+2025-05-26 14:24:17.370 +06:00 [INF] HTTP GET /api/Products responded 200 in 4.9606 ms
+2025-05-26 14:24:42.252 +06:00 [INF] HTTP POST /api/Products responded 201 in 336.4481 ms
+2025-05-26 14:24:46.181 +06:00 [INF] HTTP GET /api/Products responded 200 in 121.3052 ms
+2025-05-26 14:25:09.990 +06:00 [INF] HTTP GET /api/Products/2e89fe31-65f4-4c69-98a9-3a0129a6e9e2 responded 200 in 21.4304 ms
+2025-05-26 14:25:23.584 +06:00 [INF] HTTP GET /api/Carts responded 200 in 76.1688 ms
+2025-05-26 14:25:34.533 +06:00 [INF] HTTP POST /api/Carts responded 201 in 68.3791 ms
+2025-05-26 14:25:41.651 +06:00 [INF] HTTP GET /api/Carts responded 200 in 3.6971 ms
+2025-05-26 14:26:12.180 +06:00 [INF] HTTP DELETE /api/Carts/2e89fe31-65f4-4c69-98a9-3a0129a6e9e2 responded 200 in 27.8084 ms
+2025-05-26 14:26:25.504 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.1221 ms
+2025-05-26 14:26:30.985 +06:00 [INF] HTTP GET /api/Carts responded 200 in 1.9241 ms
+2025-05-26 16:24:18 [Information] Starting MyApp...
+2025-05-26 16:25:19 [Warning] Failed to determine the https port for redirect.
+2025-05-26 16:25:24 [Information] HTTP "POST" "/api/Authentication" responded 200 in 4907.3184 ms
