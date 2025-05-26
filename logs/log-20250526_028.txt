@@ -1,0 +1,8 @@
+2025-05-26 12:15:40.588 +06:00 [INF] Starting MyApp...
+2025-05-26 12:16:15.835 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-26 12:16:18.385 +06:00 [INF] HTTP GET /api/Products responded 200 in 2544.7067 ms
+2025-05-26 12:16:27.545 +06:00 [INF] HTTP POST /api/Products responded 201 in 1451.3232 ms
+2025-05-26 12:16:38.632 +06:00 [INF] HTTP GET /api/Products responded 200 in 8.9545 ms
+2025-05-26 12:17:17.568 +06:00 [INF] HTTP GET /api/Products/813f4118-2cca-43e6-9b8f-e4a1103068b0 responded 200 in 20.0430 ms
+2025-05-26 13:41:01 [Warning] The foreign key property '"Cart"."ProductId1"' was created in shadow state because a conflicting property with the simple name '"ProductId"' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-05-26 13:41:01 [Warning] The foreign key property '"Cart"."ProductId1"' was created in shadow state because a conflicting property with the simple name '"ProductId"' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.

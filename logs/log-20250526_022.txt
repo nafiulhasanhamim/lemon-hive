@@ -324,3 +324,4 @@
 2025-05-26 09:38:15.221 +06:00 [INF] HTTP GET /Products/monitor.jpg responded 404 in 0.0335 ms
 2025-05-26 09:38:15.221 +06:00 [INF] HTTP GET /Products/string responded 404 in 0.0476 ms
 2025-05-26 09:38:15.222 +06:00 [INF] HTTP GET /placeholder.svg responded 404 in 0.0630 ms
+2025-05-26 10:14:21 [Information] Starting MyApp...

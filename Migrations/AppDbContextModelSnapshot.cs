@@ -3,8 +3,8 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using MyApp.Infrastructure.Data;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using dotnet_mvc.data;
 
 #nullable disable
 
@@ -21,25 +21,6 @@ namespace celebrations.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
-
-            modelBuilder.Entity("CartAPI.Models.Cart", b =>
-                {
-                    b.Property<string>("CartId")
-                        .HasColumnType("text");
-
-                    b.Property<string>("ProductId")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("integer");
-
-                    b.HasKey("CartId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Carts");
-                });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
@@ -69,14 +50,14 @@ namespace celebrations.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "c4ad2539-2c15-4a88-acf0-74c1f9415b77",
+                            Id = "a0b2fd5f-1f2b-45cc-b046-3f0664b9c7ac",
                             ConcurrencyStamp = "1",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "1d94964c-2cbe-4661-beeb-818de4ff21bc",
+                            Id = "71995708-4c32-4300-b85a-75326a4a9ea0",
                             ConcurrencyStamp = "2",
                             Name = "User",
                             NormalizedName = "USER"
@@ -189,72 +170,7 @@ namespace celebrations.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ProductAPI.Models.Product", b =>
-                {
-                    b.Property<string>("ProductId")
-                        .HasColumnType("text");
-
-                    b.Property<DateTime>("DiscountEnd")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<DateTime>("DiscountStart")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
-
-                    b.Property<string>("ProductImage")
-                        .HasColumnType("text");
-
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("character varying(255)");
-
-                    b.Property<string>("Slug")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("ProductId");
-
-                    b.HasIndex("ProductName");
-
-                    b.ToTable("Products");
-
-                    b.HasData(
-                        new
-                        {
-                            ProductId = "2dbcf6af-75a7-41a3-bb19-8c32ae021c12",
-                            DiscountEnd = new DateTime(2025, 6, 1, 18, 45, 3, 640, DateTimeKind.Utc).AddTicks(1045),
-                            DiscountStart = new DateTime(2025, 5, 25, 18, 45, 3, 640, DateTimeKind.Utc).AddTicks(1039),
-                            Price = 25.99m,
-                            ProductImage = "mouse.jpg",
-                            ProductName = "Wireless Mouse",
-                            Slug = "wireless-mouse"
-                        },
-                        new
-                        {
-                            ProductId = "f5e99b0d-a4d9-425e-945e-a345fa1505df",
-                            DiscountEnd = new DateTime(2025, 6, 1, 18, 45, 3, 640, DateTimeKind.Utc).AddTicks(1067),
-                            DiscountStart = new DateTime(2025, 5, 25, 18, 45, 3, 640, DateTimeKind.Utc).AddTicks(1066),
-                            Price = 79.99m,
-                            ProductImage = "keyboard.jpg",
-                            ProductName = "Mechanical Keyboard",
-                            Slug = "mechanical-keyboard"
-                        },
-                        new
-                        {
-                            ProductId = "30a973f7-5dd7-45c1-9049-873417f15376",
-                            DiscountEnd = new DateTime(2025, 6, 4, 18, 45, 3, 640, DateTimeKind.Utc).AddTicks(1078),
-                            DiscountStart = new DateTime(2025, 5, 25, 18, 45, 3, 640, DateTimeKind.Utc).AddTicks(1076),
-                            Price = 199.99m,
-                            ProductImage = "monitor.jpg",
-                            ProductName = "HD Monitor",
-                            Slug = "hd-monitor"
-                        });
-                });
-
-            modelBuilder.Entity("dotnet_mvc.Models.ApplicationUser", b =>
+            modelBuilder.Entity("MyApp.Domain.Entities.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text");
@@ -333,15 +249,158 @@ namespace celebrations.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("CartAPI.Models.Cart", b =>
+            modelBuilder.Entity("MyApp.Domain.Entities.Cart", b =>
                 {
-                    b.HasOne("ProductAPI.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<string>("CartId")
+                        .HasColumnType("text");
 
-                    b.Navigation("Product");
+                    b.Property<string>("ProductId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
+
+                    b.HasKey("CartId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Carts");
+                });
+
+            modelBuilder.Entity("MyApp.Domain.Entities.Product", b =>
+                {
+                    b.Property<string>("ProductId")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("DiscountEnd")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("DiscountStart")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.Property<string>("ProductImage")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("ProductId");
+
+                    b.HasIndex("ProductName");
+
+                    b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = "f4aef094-93b8-429f-8408-5356aec396bc",
+                            DiscountEnd = new DateTime(2025, 6, 1, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4880),
+                            DiscountStart = new DateTime(2025, 5, 27, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4869),
+                            Price = 25.99m,
+                            ProductImage = "mouse.jpg",
+                            ProductName = "Wireless Mouse",
+                            Slug = "wireless-mouse"
+                        },
+                        new
+                        {
+                            ProductId = "2d9bf373-6aab-4325-b317-d2ddeee9a21e",
+                            DiscountEnd = new DateTime(2025, 6, 2, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4902),
+                            DiscountStart = new DateTime(2025, 5, 26, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4901),
+                            Price = 79.99m,
+                            ProductImage = "keyboard.jpg",
+                            ProductName = "Mechanical Keyboard",
+                            Slug = "mechanical-keyboard"
+                        },
+                        new
+                        {
+                            ProductId = "a0e124e7-2d33-48e5-9038-63466f0eba8b",
+                            DiscountEnd = new DateTime(2025, 5, 31, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4909),
+                            DiscountStart = new DateTime(2025, 5, 28, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4908),
+                            Price = 199.99m,
+                            ProductImage = "monitor27.jpg",
+                            ProductName = "HD Monitor 27\"",
+                            Slug = "hd-monitor-27"
+                        },
+                        new
+                        {
+                            ProductId = "559fdf13-02ff-4079-bfa0-5f79a15461f8",
+                            DiscountEnd = new DateTime(2025, 6, 5, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4916),
+                            DiscountStart = new DateTime(2025, 5, 27, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4915),
+                            Price = 139.50m,
+                            ProductImage = "chair.jpg",
+                            ProductName = "Gaming Chair",
+                            Slug = "gaming-chair"
+                        },
+                        new
+                        {
+                            ProductId = "b93fcc2f-4dd4-49c6-91e7-6d2fb022d3f8",
+                            DiscountEnd = new DateTime(2025, 5, 30, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4922),
+                            DiscountStart = new DateTime(2025, 5, 29, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4921),
+                            Price = 45.00m,
+                            ProductImage = "hub.jpg",
+                            ProductName = "USB-C Hub (6-in-1)",
+                            Slug = "usb-c-hub-6-in-1"
+                        },
+                        new
+                        {
+                            ProductId = "6e01ed92-f236-4bdf-919b-0c1a767495a1",
+                            DiscountEnd = new DateTime(2025, 6, 9, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4928),
+                            DiscountStart = new DateTime(2025, 5, 26, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4927),
+                            Price = 59.99m,
+                            ProductImage = "webcam.jpg",
+                            ProductName = "1080p Webcam Pro",
+                            Slug = "webcam-pro-1080p"
+                        },
+                        new
+                        {
+                            ProductId = "fecd4431-542f-4bc4-8dfd-5c132f706ab1",
+                            DiscountEnd = new DateTime(2025, 6, 1, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4934),
+                            DiscountStart = new DateTime(2025, 5, 31, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4933),
+                            Price = 89.95m,
+                            ProductImage = "speaker.jpg",
+                            ProductName = "Bluetooth Speaker",
+                            Slug = "bluetooth-speaker"
+                        },
+                        new
+                        {
+                            ProductId = "0b4bf650-cd4a-4579-937d-e15931b32c03",
+                            DiscountEnd = new DateTime(2025, 6, 6, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4948),
+                            DiscountStart = new DateTime(2025, 6, 5, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4947),
+                            Price = 129.99m,
+                            ProductImage = "ssd.jpg",
+                            ProductName = "External SSD 1TB",
+                            Slug = "external-ssd-1tb"
+                        },
+                        new
+                        {
+                            ProductId = "2e04abcb-6940-4869-bc2b-8403180f1b1d",
+                            DiscountEnd = new DateTime(2025, 5, 31, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4954),
+                            DiscountStart = new DateTime(2025, 5, 27, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4953),
+                            Price = 159.99m,
+                            ProductImage = "headphones.jpg",
+                            ProductName = "Noise-Cancelling Headphones",
+                            Slug = "nc-headphones"
+                        },
+                        new
+                        {
+                            ProductId = "b2d19f24-0f23-43ea-bc59-01de84774bff",
+                            DiscountEnd = new DateTime(2025, 6, 25, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4961),
+                            DiscountStart = new DateTime(2025, 5, 26, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4960),
+                            Price = 799.00m,
+                            ProductImage = "tv.jpg",
+                            ProductName = "4K Ultra HD TV",
+                            Slug = "4k-ultra-hd-tv"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -355,7 +414,7 @@ namespace celebrations.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("dotnet_mvc.Models.ApplicationUser", null)
+                    b.HasOne("MyApp.Domain.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -364,7 +423,7 @@ namespace celebrations.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("dotnet_mvc.Models.ApplicationUser", null)
+                    b.HasOne("MyApp.Domain.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -379,7 +438,7 @@ namespace celebrations.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("dotnet_mvc.Models.ApplicationUser", null)
+                    b.HasOne("MyApp.Domain.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -388,11 +447,22 @@ namespace celebrations.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("dotnet_mvc.Models.ApplicationUser", null)
+                    b.HasOne("MyApp.Domain.Entities.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("MyApp.Domain.Entities.Cart", b =>
+                {
+                    b.HasOne("MyApp.Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 #pragma warning restore 612, 618
         }
