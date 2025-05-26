@@ -42,6 +42,10 @@ builder.Services.AddAutoMapper(typeof(Program));
 //signalR
 builder.Services.AddSignalR();
 
+builder.Services.AddControllersWithViews(); // for MVC
+builder.Services.AddRazorPages();           // for Razor Pages
+
+
 //database connection
 builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -187,6 +191,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseRouting();
+
+app.MapControllers();
+app.MapRazorPages();
+app.UseStaticFiles();
+
+
 //custom response for 401 unauthorized or 403 Forbidden
 app.UseMiddleware<CustomUnauthorizedResponseMiddleware>();
 
@@ -196,6 +207,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
 
 try
 {

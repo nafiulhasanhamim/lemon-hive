@@ -1,0 +1,17 @@
+2025-05-26 08:04:20.144 +06:00 [INF] Starting MyApp...
+2025-05-26 08:04:23.136 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-26 08:04:23.169 +06:00 [INF] HTTP GET /Index responded 404 in 28.1120 ms
+2025-05-26 08:04:24.614 +06:00 [INF] HTTP GET /Index responded 404 in 1.3308 ms
+2025-05-26 08:04:38.555 +06:00 [INF] HTTP GET /Products/Index responded 200 in 1406.6111 ms
+2025-05-26 08:04:38.582 +06:00 [INF] HTTP GET /css/site.css responded 404 in 0.1199 ms
+2025-05-26 08:04:38.588 +06:00 [INF] HTTP GET /Products/monitor.jpg responded 404 in 0.1101 ms
+2025-05-26 08:04:38.588 +06:00 [INF] HTTP GET /Products/keyboard.jpg responded 404 in 0.0977 ms
+2025-05-26 08:04:38.592 +06:00 [INF] HTTP GET /Products/string responded 404 in 0.1324 ms
+2025-05-26 08:04:38.611 +06:00 [INF] HTTP GET /Products/string responded 404 in 0.0871 ms
+2025-05-26 08:07:06 [Information] Starting MyApp...
+2025-05-26 08:07:19 [Warning] Failed to determine the https port for redirect.
+2025-05-26 08:07:21 [Information] HTTP "GET" "/Products/Index" responded 200 in 1880.2220 ms
+2025-05-26 08:07:21 [Information] HTTP "GET" "/Products/string" responded 404 in 1.6747 ms
+2025-05-26 08:07:21 [Information] HTTP "GET" "/Products/monitor.jpg" responded 404 in 2.1618 ms
+2025-05-26 08:07:21 [Information] HTTP "GET" "/Products/keyboard.jpg" responded 404 in 2.2068 ms
+2025-05-26 08:07:21 [Information] HTTP "GET" "/Products/string" responded 404 in 0.0846 ms

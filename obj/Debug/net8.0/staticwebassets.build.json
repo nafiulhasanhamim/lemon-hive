@@ -1,12 +1,228 @@
 {
   "Version": 1,
-  "Hash": "kb898j9UGsD+BZrHvr5lvC6adPmtBe4Tgq40YeCXTGM=",
+  "Hash": "bQhAfUCxN1Zm3Qy3rXNRULaPziX9ZHRc+UFXRXnVnxc=",
   "Source": "lemonhive",
   "BasePath": "_content/lemonhive",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "lemonhive\\wwwroot",
+      "Source": "lemonhive",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\site.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jhmlo542rq",
+      "Integrity": "6Y7IcEPrK9HHOrye75J/dwS3BAmVb0rkibHepgfMVvk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\home.js",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "js/home#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dkugpeha14",
+      "Integrity": "vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Y7IcEPrK9HHOrye75J/dwS3BAmVb0rkibHepgfMVvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 03:09:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Y7IcEPrK9HHOrye75J/dwS3BAmVb0rkibHepgfMVvk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.jhmlo542rq.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Y7IcEPrK9HHOrye75J/dwS3BAmVb0rkibHepgfMVvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 03:09:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jhmlo542rq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Y7IcEPrK9HHOrye75J/dwS3BAmVb0rkibHepgfMVvk="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.dkugpeha14.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 03:06:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dkugpeha14"
+        },
+        {
+          "Name": "label",
+          "Value": "js/home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs="
+        }
+      ]
+    },
+    {
+      "Route": "js/home.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 03:06:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs="
+        }
+      ]
+    }
+  ]
 }
