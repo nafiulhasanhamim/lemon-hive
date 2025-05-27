@@ -1,0 +1,70 @@
+2025-05-26 23:23:11.586 +06:00 [INF] Starting MyApp...
+2025-05-26 23:23:17.579 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-26 23:23:22.848 +06:00 [INF] HTTP GET /Products responded 200 in 5260.8642 ms
+2025-05-26 23:23:22.878 +06:00 [INF] HTTP GET /css/home.css responded 404 in 1.7836 ms
+2025-05-26 23:23:22.878 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 1.7873 ms
+2025-05-26 23:23:23.007 +06:00 [INF] HTTP GET /Products responded 200 in 113.2750 ms
+2025-05-26 23:23:33.357 +06:00 [INF] HTTP POST /Products responded 400 in 4.4151 ms
+2025-05-26 23:24:33.239 +06:00 [INF] HTTP GET /api/Carts responded 200 in 243.7550 ms
+2025-05-26 23:27:29.823 +06:00 [INF] HTTP GET /Products responded 200 in 36.6729 ms
+2025-05-26 23:27:30.119 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1553 ms
+2025-05-26 23:27:30.147 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1377 ms
+2025-05-26 23:27:30.183 +06:00 [INF] HTTP GET /Products responded 200 in 8.1723 ms
+2025-05-26 23:27:42.608 +06:00 [INF] HTTP GET /Products responded 200 in 12.4686 ms
+2025-05-26 23:27:42.632 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1386 ms
+2025-05-26 23:27:42.637 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.3661 ms
+2025-05-26 23:27:42.654 +06:00 [INF] HTTP GET /Products responded 200 in 9.5189 ms
+2025-05-26 23:27:54.282 +06:00 [INF] HTTP POST /Products responded 400 in 1.8620 ms
+2025-05-26 23:28:26.980 +06:00 [INF] HTTP GET /Products responded 200 in 81.1181 ms
+2025-05-26 23:28:27.005 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1055 ms
+2025-05-26 23:28:27.014 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1120 ms
+2025-05-26 23:28:27.043 +06:00 [INF] HTTP GET /Products responded 200 in 5.9056 ms
+2025-05-26 23:28:49.734 +06:00 [INF] HTTP GET /Products responded 200 in 27.7157 ms
+2025-05-26 23:28:49.831 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1556 ms
+2025-05-26 23:28:49.864 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1618 ms
+2025-05-26 23:28:49.918 +06:00 [INF] HTTP GET /Products responded 200 in 28.8345 ms
+2025-05-26 23:29:15.699 +06:00 [INF] HTTP POST /Products responded 400 in 0.7848 ms
+2025-05-26 23:29:48 [Information] Starting MyApp...
+2025-05-26 23:31:18 [Warning] Failed to determine the https port for redirect.
+2025-05-26 23:31:18 [Information] HTTP "POST" "/Products/Index" responded 400 in 120.3838 ms
+2025-05-26 23:31:20 [Information] HTTP "POST" "/Products/Index" responded 400 in 3.1039 ms
+2025-05-26 23:31:20 [Information] HTTP "POST" "/Products/Index" responded 400 in 3.9071 ms
+2025-05-26 23:31:20 [Information] HTTP "POST" "/Products/Index" responded 400 in 3.9070 ms
+2025-05-26 23:31:21 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.9414 ms
+2025-05-26 23:31:21 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.6488 ms
+2025-05-26 23:31:42 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.6223 ms
+2025-05-26 23:31:44 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.6199 ms
+2025-05-26 23:31:46 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.6588 ms
+2025-05-26 23:31:47 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.4611 ms
+2025-05-26 23:31:47 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.4478 ms
+2025-05-26 23:31:48 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.4931 ms
+2025-05-26 23:31:48 [Information] HTTP "POST" "/Products/Index" responded 400 in 0.5004 ms
+2025-05-26 23:32:45 [Information] HTTP "POST" "/Products/Index" responded 400 in 5.4156 ms
+2025-05-26 23:35:27 [Information] HTTP "GET" "/Products" responded 200 in 1450.8141 ms
+2025-05-26 23:35:28 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1415 ms
+2025-05-26 23:35:28 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1613 ms
+2025-05-26 23:35:28 [Information] HTTP "GET" "/Products" responded 200 in 88.2370 ms
+2025-05-26 23:41:00 [Information] HTTP "GET" "/Products" responded 200 in 292.5210 ms
+2025-05-26 23:41:00 [Information] HTTP "GET" "/Products" responded 200 in 303.1862 ms
+2025-05-26 23:41:00 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1493 ms
+2025-05-26 23:41:00 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1188 ms
+2025-05-26 23:41:13 [Information] HTTP "GET" "/Products" responded 200 in 14.4840 ms
+2025-05-26 23:41:13 [Information] HTTP "GET" "/Products" responded 200 in 11.1757 ms
+2025-05-26 23:41:13 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0732 ms
+2025-05-26 23:41:13 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1136 ms
+2025-05-26 23:41:13 [Information] HTTP "GET" "/Products" responded 200 in 4.2088 ms
+2025-05-26 23:41:14 [Information] HTTP "GET" "/Products" responded 200 in 8.7035 ms
+2025-05-26 23:41:14 [Information] HTTP "GET" "/Products" responded 200 in 8.3670 ms
+2025-05-26 23:41:14 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1572 ms
+2025-05-26 23:41:14 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.5319 ms
+2025-05-26 23:41:14 [Information] HTTP "GET" "/Products" responded 200 in 4.3775 ms
+2025-05-26 23:41:17 [Information] HTTP "GET" "/Products" responded 200 in 8.5840 ms
+2025-05-26 23:41:17 [Information] HTTP "GET" "/Products" responded 200 in 4.1028 ms
+2025-05-26 23:41:17 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0689 ms
+2025-05-26 23:41:17 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0655 ms
+2025-05-26 23:41:17 [Information] HTTP "GET" "/Products" responded 200 in 3.3704 ms
+2025-05-26 23:41:22 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.3129 ms
+2025-05-26 23:41:22 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1411 ms
+2025-05-26 23:41:22 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1573 ms
+2025-05-26 23:41:22 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.9680 ms
+2025-05-26 23:41:27 [Information] HTTP "POST" "/api/Carts" responded 400 in 60.7810 ms

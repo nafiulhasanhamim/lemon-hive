@@ -1,16 +1,21 @@
 using System.Text;
-using dotnet_mvc.data;
-using dotnet_mvc.Interfaces;
-using dotnet_mvc.Models;
-using dotnet_mvc.RabbitMQ;
-using dotnet_mvc.Services;
-using dotnet_mvc.Services.Caching;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using MyApp.Api.Middleware;
+using MyApp.Application.Caching;
+using MyApp.Application.Interfaces;
+using MyApp.Application.Services;
+using MyApp.Domain.Entities;
+using MyApp.Infrastructure.Caching;
+using MyApp.Infrastructure.Configuration;
+using MyApp.Infrastructure.Data;
+using MyApp.Infrastructure.Email;
+using MyApp.Infrastructure.Messaging;
+using MyApp.Infrastructure.Repositories;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,9 +25,20 @@ var configuration = builder.Configuration;
 
 builder.Services.AddScoped<IUserManagement, UserManagementService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+// builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
+
+builder.Services.AddScoped<ICartRepository, CartRepository>();
+builder.Services.AddScoped<ICartService, CartService>();
+
+
+// builder.Services.AddScoped<ICartService, CartService>();
 
 //for redis
-builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();
+// builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();
+
+builder.Services.AddSingleton<IRedisCacheService, RedisCacheService>();
 
 //RabbitMQ
 builder.Services.AddSingleton<IRabbmitMQCartMessageSender, RabbmitMQCartMessageSender>();
@@ -36,7 +52,18 @@ builder.Services.AddAutoMapper(typeof(Program));
 //signalR
 builder.Services.AddSignalR();
 
+builder.Services.AddControllersWithViews(); // for MVC
+builder.Services.AddRazorPages()
+    .AddRazorPagesOptions(options =>
+    {
+        options.RootDirectory = "/MyApp.Web/Pages";
+    });
+
+
 //database connection
+// builder.Services.AddDbContext<AppDbContext>(options =>
+//             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -49,7 +76,10 @@ builder.Services.AddStackExchangeRedisCache(option =>
 
 
 // For Identity
-// builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+// builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+//     .AddEntityFrameworkStores<AppDbContext>()
+//     .AddDefaultTokenProviders();
+
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
@@ -173,6 +203,11 @@ builder.Services.AddSwaggerGen(option =>
 });
 
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -180,6 +215,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseRouting();
+
+app.MapControllers();
+app.MapRazorPages();
+app.UseStaticFiles();
+
 
 //custom response for 401 unauthorized or 403 Forbidden
 app.UseMiddleware<CustomUnauthorizedResponseMiddleware>();
@@ -190,6 +232,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
 
 try
 {

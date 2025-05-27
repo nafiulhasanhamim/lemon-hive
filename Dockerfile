@@ -9,20 +9,14 @@ COPY Program.cs ./Program.cs
 COPY appsettings.json ./appsettings.json
 COPY appsettings.Development.json ./appsettings.Development.json
 
-COPY Controllers/ ./Controllers
-COPY Models/ ./Models
-COPY Services/ ./Services
-COPY DTOs/ ./DTOs
 COPY Enums/ ./Enums
 COPY Extensions/ ./Extensions
-COPY Interfaces/ ./Interfaces
-# COPY Profiles/ ./Profiles
 COPY Migrations/ ./Migrations
-COPY RabbitMQ/ ./RabbitMQ
-COPY data/ ./data
 COPY Configurations/ ./Configurations
-COPY data/ ./data
-COPY data/ ./data
+COPY MyApp.Api/ ./MyApp.Api
+COPY MyApp.Domain/ ./MyApp.Domain
+COPY MyApp.Application/ ./MyApp.Application
+COPY MyApp.Infrastructure/ ./MyApp.Infrastructure
 RUN dotnet publish -c Release -o out
 
 # Runtime Stage
