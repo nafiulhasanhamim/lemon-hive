@@ -11,3 +11,49 @@
 2025-05-26 17:20:48.785 +06:00 [INF] HTTP GET /Products/tv.jpg responded 404 in 0.1116 ms
 2025-05-26 17:20:48.785 +06:00 [INF] HTTP GET /Products/monitor27.jpg responded 404 in 0.0930 ms
 2025-05-26 17:20:48.794 +06:00 [INF] HTTP GET /placeholder.svg responded 404 in 6.9151 ms
+2025-05-26 17:44:18 [Information] Starting MyApp...
+2025-05-26 17:44:42 [Warning] Failed to determine the https port for redirect.
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/Index" responded 200 in 9018.1881 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/ssd.jpg" responded 404 in 1.9078 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/keyboard.jpg" responded 404 in 2.1557 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/css/home.css" responded 404 in 3.4517 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/headphones.jpg" responded 404 in 0.2055 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/chair.jpg" responded 404 in 8.0935 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/string" responded 404 in 9.1917 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/monitor27.jpg" responded 404 in 0.1945 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/tv.jpg" responded 404 in 0.2162 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/Products/webcam.jpg" responded 404 in 0.2333 ms
+2025-05-26 17:44:51 [Information] HTTP "GET" "/placeholder.svg" responded 404 in 9.9267 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/Index" responded 200 in 52.5177 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1598 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/ssd.jpg" responded 404 in 0.7656 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/keyboard.jpg" responded 404 in 0.6670 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/string" responded 404 in 0.0805 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/headphones.jpg" responded 404 in 0.7164 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/chair.jpg" responded 404 in 0.1120 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/webcam.jpg" responded 404 in 1.0322 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/placeholder.svg" responded 404 in 0.2594 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/monitor27.jpg" responded 404 in 0.0966 ms
+2025-05-26 17:45:12 [Information] HTTP "GET" "/Products/tv.jpg" responded 404 in 1.7547 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/Index" responded 200 in 1483.0666 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/keyboard.jpg" responded 404 in 0.3171 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1742 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/ssd.jpg" responded 404 in 0.2794 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/string" responded 404 in 0.1200 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/headphones.jpg" responded 404 in 0.3945 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/chair.jpg" responded 404 in 0.1415 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/monitor27.jpg" responded 404 in 0.1962 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/tv.jpg" responded 404 in 0.3015 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/Products/webcam.jpg" responded 404 in 0.2996 ms
+2025-05-26 17:48:09 [Information] HTTP "GET" "/placeholder.svg" responded 404 in 2.0792 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/Index" responded 200 in 10.8420 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1114 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/ssd.jpg" responded 404 in 0.1657 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/keyboard.jpg" responded 404 in 0.1187 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/headphones.jpg" responded 404 in 0.1424 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/string" responded 404 in 0.0999 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/chair.jpg" responded 404 in 0.9031 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/webcam.jpg" responded 404 in 0.2280 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/tv.jpg" responded 404 in 0.2102 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/placeholder.svg" responded 404 in 0.1483 ms
+2025-05-26 17:48:58 [Information] HTTP "GET" "/Products/monitor27.jpg" responded 404 in 0.1538 ms

@@ -1,9 +1,10 @@
- @page
+@page
 @model IndexModel
 @{
     Layout = "_Layout";
     ViewData["Title"] = "E-Bazaar";
 }
+
 @section Styles {
     <link rel="stylesheet" href="~/css/home.css" />
 }
@@ -12,90 +13,105 @@
   <div class="container">
     <div class="header-content">
       <div class="logo">E-Bazaar</div>
-      <div class="cart"><div class="cart-icon"></div>Cart (@Model.CartCount)</div>
+<div class="cart" onclick="home.openCartSidebar()">
+  <div class="cart-icon"></div>
+  Cart (<span id="cartCount">@Model.CartCount</span>)
+</div>
+
     </div>
   </div>
 </header>
 
+<div id="toast-container" style="
+     position: fixed; top: 1rem; right: 1rem;
+     display: flex; flex-direction: column; gap: 0.5rem;
+     z-index: 9999;">
+</div>
+
+
 <main class="container">
-  <!-- Stats Section -->
+  <!-- Stats -->
   <section class="stats-section">
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-icon">🛍️</div>
         <div class="stat-content">
           <h3>Total Products: @Model.TotalProducts</h3>
-          <p>Maximum sale of all the products<br />during the last month of a year</p>
+          <p>Maximum sale of all the products<br/>during last month</p>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-icon">👥</div>
         <div class="stat-content">
           <h3>Total Vendors: @Model.TotalVendors</h3>
-          <p>A total of @Model.TotalVendors vendors are<br />available in our shop</p>
+          <p>@Model.TotalVendors vendors available</p>
         </div>
       </div>
       <div class="stat-card">
         <div class="stat-icon">📦</div>
         <div class="stat-content">
           <h3>Unique Products: @Model.UniqueProducts</h3>
-          <p>Recognized as unique products<br />in our catalog</p>
+          <p>Recognized as unique products</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Search Section -->
+  <!-- Search -->
   <section class="search-section">
     <div class="search-bar">
-      <input type="text" class="search-input" placeholder="Search products…" value="@Model.SearchText" />
-      <button class="search-btn">Search</button>
+      <input type="text" id="searchInput" class="search-input" placeholder="Search…" value="@Model.SearchText" onkeydown="if(event.key==='Enter') home.applyFilters()" />
+      <button class="search-btn" onclick="home.applyFilters()">Search</button>
       <button class="add-product-btn" onclick="home.openModal()">Add Product</button>
     </div>
-    <div class="results-info">
+    <div class="results-info" id="resultsInfo">
       Showing @Model.StartResult–@Model.EndResult of @Model.TotalResults results
     </div>
   </section>
 
-  <!-- Products Grid -->
-  <section class="products-section">
-    <div class="products-grid">
+  <!-- Products -->
+   <section class="products-section">
+    <div class="products-grid" id="productsGrid">
       @foreach(var p in Model.Products) {
-      <div class="product-card">
-        <img src="@p.ProductImage" alt="@p.ProductName" class="product-image" />
-        <div class="product-name">@p.ProductName</div>
-        <div class="product-price">
-          @p.Price.ToString("C")
-          @if(p.DiscountedPrice < p.Price){
-            <span style="text-decoration: line-through; color: #999; font-size: 14px;";">@p.Price.ToString("C")</span>
-          }
-        </div>
-        <div class="cart-controls">
-          <div class="quantity-controls">
-            <div class="quantity-row">
-              <button class="quantity-btn" onclick="home.decreaseQuantity(this)">-</button>
-              <span class="quantity-display">1</span>
-              <button class="quantity-btn" onclick="home.increaseQuantity(this)">+</button>
+<div class="product-card" data-product-id="@p.ProductId">
+          <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop&crop=center" alt="DJI Phantom 3 Vision" class="product-image">          
+          <div class="product-content">
+            <div class="product-name">@p.ProductName</div>
+            <div class="product-price">
+              @if(p.DiscountedPrice < p.Price) {
+                <span class="discounted-price">@p.DiscountedPrice.ToString("C")</span>
+                <span class="original-price" style="text-decoration: line-through; color: #999; margin-left: 8px;">@p.Price.ToString("C")</span>
+              } else {
+                <span class="price">@p.Price.ToString("C")</span>
+              }
             </div>
-            <button class="confirm-add-btn" onclick="home.addToCart(this)">Add to Cart</button>
+            <div class="cart-controls">
+              <div class="quantity-controls">
+                <div class="quantity-row">
+                  <button class="quantity-btn" onclick="home.decreaseQuantity(this)">-</button>
+                  <span class="quantity-display">1</span>
+                  <button class="quantity-btn" onclick="home.increaseQuantity(this)">+</button>
+                </div>
+                <button class="confirm-add-btn" onclick="home.addToCart(this)">Add to Cart</button>
+              </div>
+              <button class="add-to-cart">Add to cart</button>
+            </div>
           </div>
-          <button class="add-to-cart">Add to cart</button>
         </div>
-      </div>
       }
     </div>
 
     <!-- Pagination -->
     <div class="pagination">
-      <button onclick="home.prevPage()">← Prev</button>
-      @for(int i=1; i<=Model.TotalPages; i++){
-        <button class="@(i==Model.CurrentPage?"active":"")" onclick="home.goToPage(@i)">@i</button>
-      }
-      <span class="dots">…</span>
-      <button onclick="home.nextPage()">Next →</button>
+      <button id="prevBtn" onclick="home.prevPage()">← Prev</button>
+      <span id="pageButtons"></span>
+      <button id="nextBtn" onclick="home.nextPage()">Next →</button>
+
       <div class="per-page-select">
-        <button class="per-page-btn" id="perPageBtn">@Model.PageSize per page</button>
-        <div class="per-page-dropdown">
+        <button class="per-page-btn" id="perPageBtn" onclick="home.togglePerDropdown()">
+          @Model.PageSize per page
+        </button>
+        <div class="per-page-dropdown" id="perDropdown">
           <button class="per-page-option" onclick="home.changePerPage(5)">5 per page</button>
           <button class="per-page-option" onclick="home.changePerPage(10)">10 per page</button>
           <button class="per-page-option" onclick="home.changePerPage(20)">20 per page</button>
@@ -107,16 +123,20 @@
 </main>
 
 <!-- Add Product Modal -->
+
 <div class="modal-overlay" id="modalOverlay" onclick="home.closeModalOnOverlay(event)">
   <div class="modal">
     <div class="modal-header">
       <div>
         <h2 class="modal-title">Add New Product</h2>
-        <p class="modal-subtitle">Enter details for your new product.</p>
+        
+        <p class="modal-subtitle">Enter product details.</p>
       </div>
       <button class="modal-close" onclick="home.closeModal()">×</button>
     </div>
     <div class="modal-body">
+      <div id="formErrors" class="form-errors" style="color:#d9534f; margin-bottom:1rem;"></div>
+
       <form id="addProductForm">
         <div class="form-group">
           <label class="form-label">Product Name</label>
@@ -129,6 +149,11 @@
             <button type="button" class="generate-btn" onclick="home.generateSlug()">Generate</button>
           </div>
         </div>
+        <div class="form-group">
+          <label class="form-label">Product Image URL</label>
+          <input type="text" id="productImage" class="form-input" placeholder="https://example.com/img.jpg" />
+          </div>
+
         <div class="form-group">
           <label class="form-label">Price</label>
           <input type="text" id="productPrice" class="form-input" />
@@ -163,55 +188,16 @@
       <button class="cart-close" onclick="home.closeCartSidebar()">×</button>
     </div>
     <div class="cart-items" id="cartItems">
+      @* Loop Model.CartItems here *@
       <div class="cart-item">
-        <img src="/placeholder.svg?height=60&width=60" class="cart-item-image" />
+        <img src="~/images/placeholder.png" class="cart-item-image" />
         <div class="cart-item-details">
-          <div class="cart-item-name">DJI Phantom 3 Vision+</div>
-          <div class="cart-item-price">$499.00</div>
+          <div class="cart-item-name">Sample Product</div>
+          <div class="cart-item-price">$0.00</div>
           <div class="cart-item-quantity">
-            <span>Qty: </span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this, -1)">-</button>
+            <button class="qty-btn" onclick="home.updateCartQuantity(this,-1)">-</button>
             <span class="qty-number">1</span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this, +1)">+</button>
-          </div>
-        </div>
-      </div>
-      <div class="cart-item">
-        <img src="/placeholder.svg?height=60&width=60" class="cart-item-image" />
-        <div class="cart-item-details">
-          <div class="cart-item-name">DJI Phantom 3 Vision+</div>
-          <div class="cart-item-price">$499.00</div>
-          <div class="cart-item-quantity">
-            <span>Qty: </span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this, -1)">-</button>
-            <span class="qty-number">1</span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this, +1)">+</button>
-          </div>
-        </div>
-      </div>
-      <div class="cart-item">
-        <img src="/placeholder.svg?height=60&width=60" class="cart-item-image" />
-        <div class="cart-item-details">
-          <div class="cart-item-name">DJI Phantom 3 Vision+</div>
-          <div class="cart-item-price">$499.00</div>
-          <div class="cart-item-quantity">
-            <span>Qty: </span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this, -1)">-</button>
-            <span class="qty-number">1</span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this, +1)">+</button>
-          </div>
-        </div>
-      </div>
-      <div class="cart-item">
-        <img src="/placeholder.svg?height=60&width=60" class="cart-item-image" />
-        <div class="cart-item-details">
-          <div class="cart-item-name">DJI Phantom 3 Vision+</div>
-          <div class="cart-item-price">$499.00</div>
-          <div class="cart-item-quantity">
-            <span>Qty: </span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this, -1)">-</button>
-            <span class="qty-number">1</span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this, +1)">+</button>
+            <button class="qty-btn" onclick="home.updateCartQuantity(this,1)">+</button>
           </div>
         </div>
       </div>
@@ -226,5 +212,13 @@
 </div>
 
 @section Scripts {
+    <script>
+      window.initialData = {
+        pageSize: @Model.PageSize,
+        currentPage: @Model.CurrentPage,
+        totalResults: @Model.TotalResults,
+        searchText: '@Model.SearchText'
+      };
+    </script>
     <script src="~/js/home.js"></script>
 }
