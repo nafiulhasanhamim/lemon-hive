@@ -1,0 +1,11 @@
+server.host: "0.0.0.0"
+elasticsearch.hosts: ["http://elasticsearch:9200"]
+
+# enable debug/verbose logs
+logging:
+  verbose: true
+  loggers:
+    - name: root
+      level: debug
+    - name: elasticsearch.client
+      level: debug
