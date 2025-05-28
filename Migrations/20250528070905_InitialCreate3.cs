@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace celebrations.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialCreate3 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -205,8 +205,8 @@ namespace celebrations.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "510699c3-e0b4-442c-b211-31d3d16a8181", "1", "Admin", "ADMIN" },
-                    { "b35f05b7-fb24-44e7-9a04-82271b0fb33d", "2", "User", "USER" }
+                    { "825e36a8-572f-40b3-b3af-b84f5e281c97", "1", "Admin", "ADMIN" },
+                    { "dc66b33c-aef2-4a89-acae-b27b193a17bf", "2", "User", "USER" }
                 });
 
             migrationBuilder.InsertData(
@@ -214,16 +214,16 @@ namespace celebrations.Migrations
                 columns: new[] { "ProductId", "DiscountEnd", "DiscountStart", "Price", "ProductImage", "ProductName", "Slug" },
                 values: new object[,]
                 {
-                    { "38756ba7-915b-478b-90ee-fa134c65173b", new DateTime(2025, 5, 31, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4184), new DateTime(2025, 5, 28, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4183), 199.99m, "monitor27.jpg", "HD Monitor 27\"", "hd-monitor-27" },
-                    { "46327481-8470-4f66-9a71-7eaad80ce43f", new DateTime(2025, 6, 2, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4180), new DateTime(2025, 5, 26, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4180), 79.99m, "keyboard.jpg", "Mechanical Keyboard", "mechanical-keyboard" },
-                    { "5c1bd019-e868-48d6-9bcb-2869e061eaae", new DateTime(2025, 6, 5, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4203), new DateTime(2025, 5, 27, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4203), 139.50m, "chair.jpg", "Gaming Chair", "gaming-chair" },
-                    { "6f5d1fe9-b965-45f5-90e0-bdcf724e0c73", new DateTime(2025, 6, 6, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4257), new DateTime(2025, 6, 5, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4257), 129.99m, "ssd.jpg", "External SSD 1TB", "external-ssd-1tb" },
-                    { "b93abafe-7fd2-48d1-a79c-e01b195b7fdb", new DateTime(2025, 6, 25, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4264), new DateTime(2025, 5, 26, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4264), 799.00m, "tv.jpg", "4K Ultra HD TV", "4k-ultra-hd-tv" },
-                    { "d2897e3b-a5de-4d45-ab34-29251bf7f7ee", new DateTime(2025, 6, 1, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4254), new DateTime(2025, 5, 31, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4253), 89.95m, "speaker.jpg", "Bluetooth Speaker", "bluetooth-speaker" },
-                    { "d7da0a39-c6f9-47be-849f-875e69a0dd2c", new DateTime(2025, 6, 1, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4168), new DateTime(2025, 5, 27, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4159), 25.99m, "mouse.jpg", "Wireless Mouse", "wireless-mouse" },
-                    { "ed09b0b5-fd87-4b56-bbff-158936032289", new DateTime(2025, 5, 30, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4206), new DateTime(2025, 5, 29, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4206), 45.00m, "hub.jpg", "USB-C Hub (6-in-1)", "usb-c-hub-6-in-1" },
-                    { "f5a0fd9a-35f3-4b57-b5ff-e230eb7a301d", new DateTime(2025, 5, 31, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4261), new DateTime(2025, 5, 27, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4260), 159.99m, "headphones.jpg", "Noise-Cancelling Headphones", "nc-headphones" },
-                    { "fa06c4c9-a3e5-4903-959b-c5f9ae97c452", new DateTime(2025, 6, 9, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4210), new DateTime(2025, 5, 26, 8, 15, 8, 938, DateTimeKind.Utc).AddTicks(4209), 59.99m, "webcam.jpg", "1080p Webcam Pro", "webcam-pro-1080p" }
+                    { "0588bfc3-de51-448e-8f51-9ee105f40367", new DateTime(2025, 6, 7, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8063), new DateTime(2025, 5, 29, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8061), 139.50m, "chair.jpg", "Gaming Chair", "gaming-chair" },
+                    { "1b2cbaf1-18f9-448b-bce9-2abafff93147", new DateTime(2025, 6, 3, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8112), new DateTime(2025, 6, 2, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8111), 89.95m, "speaker.jpg", "Bluetooth Speaker", "bluetooth-speaker" },
+                    { "45304c93-db73-4816-90f9-e9b89bba0701", new DateTime(2025, 6, 27, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8145), new DateTime(2025, 5, 28, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8144), 799.00m, "tv.jpg", "4K Ultra HD TV", "4k-ultra-hd-tv" },
+                    { "5dcba1b3-031f-4062-824c-406dedd44305", new DateTime(2025, 6, 3, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8010), new DateTime(2025, 5, 29, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(7985), 25.99m, "mouse.jpg", "Wireless Mouse", "wireless-mouse" },
+                    { "5e9162b3-961d-4f04-89ac-a048693a04b9", new DateTime(2025, 6, 8, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8129), new DateTime(2025, 6, 7, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8128), 129.99m, "ssd.jpg", "External SSD 1TB", "external-ssd-1tb" },
+                    { "6b7ac32a-77e4-4957-b158-117237247bf8", new DateTime(2025, 6, 2, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8137), new DateTime(2025, 5, 29, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8136), 159.99m, "headphones.jpg", "Noise-Cancelling Headphones", "nc-headphones" },
+                    { "96a1416e-ea60-45f0-964b-72674f39c20b", new DateTime(2025, 6, 11, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8104), new DateTime(2025, 5, 28, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8103), 59.99m, "webcam.jpg", "1080p Webcam Pro", "webcam-pro-1080p" },
+                    { "991c95a5-7467-4ed2-a339-c2db587d3fea", new DateTime(2025, 6, 2, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8054), new DateTime(2025, 5, 30, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8052), 199.99m, "monitor27.jpg", "HD Monitor 27\"", "hd-monitor-27" },
+                    { "f0dda949-4c60-4d3b-8e16-5e0c1366c7ba", new DateTime(2025, 6, 1, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8071), new DateTime(2025, 5, 31, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8069), 45.00m, "hub.jpg", "USB-C Hub (6-in-1)", "usb-c-hub-6-in-1" },
+                    { "fea63d5f-56a3-4187-87ea-3a950b1863c8", new DateTime(2025, 6, 4, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8043), new DateTime(2025, 5, 28, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8043), 79.99m, "keyboard.jpg", "Mechanical Keyboard", "mechanical-keyboard" }
                 });
 
             migrationBuilder.CreateIndex(

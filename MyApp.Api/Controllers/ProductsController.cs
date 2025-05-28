@@ -32,7 +32,7 @@ namespace MyApp.Api.Controllers
             if (cached != null)
             {
                 Console.WriteLine("from cache");
-                // 🔥 EDGE CASE: recalc discounted price on every request
+                // EDGE CASE: recalc discounted price on every request
                 foreach (var p in cached.Items)
                 {
                     p.DiscountedPrice =

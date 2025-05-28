@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace celebrations.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250526102335_InitialCreate1")]
-    partial class InitialCreate1
+    [Migration("20250528070905_InitialCreate3")]
+    partial class InitialCreate3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,14 +53,14 @@ namespace celebrations.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a0b2fd5f-1f2b-45cc-b046-3f0664b9c7ac",
+                            Id = "825e36a8-572f-40b3-b3af-b84f5e281c97",
                             ConcurrencyStamp = "1",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "71995708-4c32-4300-b85a-75326a4a9ea0",
+                            Id = "dc66b33c-aef2-4a89-acae-b27b193a17bf",
                             ConcurrencyStamp = "2",
                             Name = "User",
                             NormalizedName = "USER"
@@ -306,9 +306,9 @@ namespace celebrations.Migrations
                     b.HasData(
                         new
                         {
-                            ProductId = "f4aef094-93b8-429f-8408-5356aec396bc",
-                            DiscountEnd = new DateTime(2025, 6, 1, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4880),
-                            DiscountStart = new DateTime(2025, 5, 27, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4869),
+                            ProductId = "5dcba1b3-031f-4062-824c-406dedd44305",
+                            DiscountEnd = new DateTime(2025, 6, 3, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8010),
+                            DiscountStart = new DateTime(2025, 5, 29, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(7985),
                             Price = 25.99m,
                             ProductImage = "mouse.jpg",
                             ProductName = "Wireless Mouse",
@@ -316,9 +316,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "2d9bf373-6aab-4325-b317-d2ddeee9a21e",
-                            DiscountEnd = new DateTime(2025, 6, 2, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4902),
-                            DiscountStart = new DateTime(2025, 5, 26, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4901),
+                            ProductId = "fea63d5f-56a3-4187-87ea-3a950b1863c8",
+                            DiscountEnd = new DateTime(2025, 6, 4, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8043),
+                            DiscountStart = new DateTime(2025, 5, 28, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8043),
                             Price = 79.99m,
                             ProductImage = "keyboard.jpg",
                             ProductName = "Mechanical Keyboard",
@@ -326,9 +326,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "a0e124e7-2d33-48e5-9038-63466f0eba8b",
-                            DiscountEnd = new DateTime(2025, 5, 31, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4909),
-                            DiscountStart = new DateTime(2025, 5, 28, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4908),
+                            ProductId = "991c95a5-7467-4ed2-a339-c2db587d3fea",
+                            DiscountEnd = new DateTime(2025, 6, 2, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8054),
+                            DiscountStart = new DateTime(2025, 5, 30, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8052),
                             Price = 199.99m,
                             ProductImage = "monitor27.jpg",
                             ProductName = "HD Monitor 27\"",
@@ -336,9 +336,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "559fdf13-02ff-4079-bfa0-5f79a15461f8",
-                            DiscountEnd = new DateTime(2025, 6, 5, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4916),
-                            DiscountStart = new DateTime(2025, 5, 27, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4915),
+                            ProductId = "0588bfc3-de51-448e-8f51-9ee105f40367",
+                            DiscountEnd = new DateTime(2025, 6, 7, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8063),
+                            DiscountStart = new DateTime(2025, 5, 29, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8061),
                             Price = 139.50m,
                             ProductImage = "chair.jpg",
                             ProductName = "Gaming Chair",
@@ -346,9 +346,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "b93fcc2f-4dd4-49c6-91e7-6d2fb022d3f8",
-                            DiscountEnd = new DateTime(2025, 5, 30, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4922),
-                            DiscountStart = new DateTime(2025, 5, 29, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4921),
+                            ProductId = "f0dda949-4c60-4d3b-8e16-5e0c1366c7ba",
+                            DiscountEnd = new DateTime(2025, 6, 1, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8071),
+                            DiscountStart = new DateTime(2025, 5, 31, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8069),
                             Price = 45.00m,
                             ProductImage = "hub.jpg",
                             ProductName = "USB-C Hub (6-in-1)",
@@ -356,9 +356,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "6e01ed92-f236-4bdf-919b-0c1a767495a1",
-                            DiscountEnd = new DateTime(2025, 6, 9, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4928),
-                            DiscountStart = new DateTime(2025, 5, 26, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4927),
+                            ProductId = "96a1416e-ea60-45f0-964b-72674f39c20b",
+                            DiscountEnd = new DateTime(2025, 6, 11, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8104),
+                            DiscountStart = new DateTime(2025, 5, 28, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8103),
                             Price = 59.99m,
                             ProductImage = "webcam.jpg",
                             ProductName = "1080p Webcam Pro",
@@ -366,9 +366,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "fecd4431-542f-4bc4-8dfd-5c132f706ab1",
-                            DiscountEnd = new DateTime(2025, 6, 1, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4934),
-                            DiscountStart = new DateTime(2025, 5, 31, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4933),
+                            ProductId = "1b2cbaf1-18f9-448b-bce9-2abafff93147",
+                            DiscountEnd = new DateTime(2025, 6, 3, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8112),
+                            DiscountStart = new DateTime(2025, 6, 2, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8111),
                             Price = 89.95m,
                             ProductImage = "speaker.jpg",
                             ProductName = "Bluetooth Speaker",
@@ -376,9 +376,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "0b4bf650-cd4a-4579-937d-e15931b32c03",
-                            DiscountEnd = new DateTime(2025, 6, 6, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4948),
-                            DiscountStart = new DateTime(2025, 6, 5, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4947),
+                            ProductId = "5e9162b3-961d-4f04-89ac-a048693a04b9",
+                            DiscountEnd = new DateTime(2025, 6, 8, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8129),
+                            DiscountStart = new DateTime(2025, 6, 7, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8128),
                             Price = 129.99m,
                             ProductImage = "ssd.jpg",
                             ProductName = "External SSD 1TB",
@@ -386,9 +386,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "2e04abcb-6940-4869-bc2b-8403180f1b1d",
-                            DiscountEnd = new DateTime(2025, 5, 31, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4954),
-                            DiscountStart = new DateTime(2025, 5, 27, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4953),
+                            ProductId = "6b7ac32a-77e4-4957-b158-117237247bf8",
+                            DiscountEnd = new DateTime(2025, 6, 2, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8137),
+                            DiscountStart = new DateTime(2025, 5, 29, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8136),
                             Price = 159.99m,
                             ProductImage = "headphones.jpg",
                             ProductName = "Noise-Cancelling Headphones",
@@ -396,9 +396,9 @@ namespace celebrations.Migrations
                         },
                         new
                         {
-                            ProductId = "b2d19f24-0f23-43ea-bc59-01de84774bff",
-                            DiscountEnd = new DateTime(2025, 6, 25, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4961),
-                            DiscountStart = new DateTime(2025, 5, 26, 10, 23, 34, 151, DateTimeKind.Utc).AddTicks(4960),
+                            ProductId = "45304c93-db73-4816-90f9-e9b89bba0701",
+                            DiscountEnd = new DateTime(2025, 6, 27, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8145),
+                            DiscountStart = new DateTime(2025, 5, 28, 7, 8, 38, 363, DateTimeKind.Utc).AddTicks(8144),
                             Price = 799.00m,
                             ProductImage = "tv.jpg",
                             ProductName = "4K Ultra HD TV",

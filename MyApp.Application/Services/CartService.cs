@@ -31,6 +31,8 @@ namespace MyApp.Application.Services
 
         public async Task<CartDetailDto> AddToCartAsync(AddToCartDto dto)
         {
+            Console.WriteLine(dto.ProductId);
+            Console.WriteLine(dto.Quantity);
             if (await _repo.GetByProductIdAsync(dto.ProductId) != null)
                 throw new InvalidOperationException("Item already exists in the cart.");
 
