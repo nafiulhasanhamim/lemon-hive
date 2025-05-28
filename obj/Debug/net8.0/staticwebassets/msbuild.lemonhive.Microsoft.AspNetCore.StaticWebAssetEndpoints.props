@@ -4,25 +4,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"as7dukdbms"},{"Name":"integrity","Value":"sha256-VllK06mC2VnGwrcAVLM2ZoSXpfXQi/FvaoZjtXZj9LI="},{"Name":"label","Value":"_content/lemonhive/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18047"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VllK06mC2VnGwrcAVLM2ZoSXpfXQi/FvaoZjtXZj9LI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 26 May 2025 18:04:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18047"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VllK06mC2VnGwrcAVLM2ZoSXpfXQi/FvaoZjtXZj9LI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 19:12:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/lemonhive/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VllK06mC2VnGwrcAVLM2ZoSXpfXQi/FvaoZjtXZj9LI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18047"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VllK06mC2VnGwrcAVLM2ZoSXpfXQi/FvaoZjtXZj9LI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 26 May 2025 18:04:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18047"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VllK06mC2VnGwrcAVLM2ZoSXpfXQi/FvaoZjtXZj9LI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 19:12:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/lemonhive/js/home.7gqrp9kvuv.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\home.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7gqrp9kvuv"},{"Name":"integrity","Value":"sha256-pzsl02fEmjozduY9XbqWt/r2msTCQAKaM9WcL52bWes="},{"Name":"label","Value":"_content/lemonhive/js/home.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17340"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pzsl02fEmjozduY9XbqWt/r2msTCQAKaM9WcL52bWes=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 19:12:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/lemonhive/js/home.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\home.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kh4ZPg7fQxyIKvXGL/IHCVdat0ax1etCgo0P0LBRa0M="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9631"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022kh4ZPg7fQxyIKvXGL/IHCVdat0ax1etCgo0P0LBRa0M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 26 May 2025 18:13:33 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/lemonhive/js/home.q9dpqatp3p.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\home.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q9dpqatp3p"},{"Name":"integrity","Value":"sha256-kh4ZPg7fQxyIKvXGL/IHCVdat0ax1etCgo0P0LBRa0M="},{"Name":"label","Value":"_content/lemonhive/js/home.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9631"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022kh4ZPg7fQxyIKvXGL/IHCVdat0ax1etCgo0P0LBRa0M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 26 May 2025 18:13:33 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pzsl02fEmjozduY9XbqWt/r2msTCQAKaM9WcL52bWes="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"17340"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pzsl02fEmjozduY9XbqWt/r2msTCQAKaM9WcL52bWes=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 19:12:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

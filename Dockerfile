@@ -16,6 +16,8 @@ COPY Configurations/ ./Configurations
 COPY MyApp.Api/ ./MyApp.Api
 COPY MyApp.Domain/ ./MyApp.Domain
 COPY MyApp.Application/ ./MyApp.Application
+COPY MyApp.Web/ ./MyApp.Web
+COPY wwwroot/ ./wwwroot
 COPY MyApp.Infrastructure/ ./MyApp.Infrastructure
 RUN dotnet publish -c Release -o out
 

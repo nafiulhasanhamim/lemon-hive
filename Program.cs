@@ -17,6 +17,7 @@ using MyApp.Infrastructure.Email;
 using MyApp.Infrastructure.Messaging;
 using MyApp.Infrastructure.Repositories;
 using Serilog;
+using Serilog.Sinks.Elasticsearch;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -60,9 +61,18 @@ builder.Services.AddRazorPages()
     });
 
 
-//database connection
-// builder.Services.AddDbContext<AppDbContext>(options =>
-//             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Host.UseSerilog((context, config) =>
+{
+    config
+        .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri("http://elasticsearch:9200"))
+        {
+            AutoRegisterTemplate = true,
+            IndexFormat = $"app-logs-{DateTime.UtcNow:yyyy.MM.dd}",
+            NumberOfShards = 2,
+            NumberOfReplicas = 1
+        })
+        .WriteTo.Http("http://logstash:5044", queueLimitBytes: 1000000);
+});
 
 builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
