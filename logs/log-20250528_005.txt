@@ -1,0 +1,85 @@
+2025-05-28 19:47:40.167 +06:00 [INF] Starting MyApp...
+2025-05-28 19:47:40.435 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-28 19:47:43.200 +06:00 [INF] HTTP POST /api/Products responded 201 in 2759.2811 ms
+2025-05-28 19:47:48.948 +06:00 [INF] HTTP GET /api/Products responded 200 in 46.7630 ms
+2025-05-28 19:47:59.584 +06:00 [INF] HTTP GET /api/Products responded 200 in 432.7821 ms
+2025-05-28 19:48:12.695 +06:00 [INF] HTTP GET /Products/Index responded 200 in 96.7140 ms
+2025-05-28 19:48:12.721 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.2184 ms
+2025-05-28 19:48:12.725 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1018 ms
+2025-05-28 19:48:12.748 +06:00 [INF] HTTP GET /Products/Index responded 200 in 14.5362 ms
+2025-05-28 19:48:12.842 +06:00 [INF] HTTP GET /api/Carts responded 200 in 105.8879 ms
+2025-05-28 19:48:58.782 +06:00 [INF] HTTP GET /Products/Index responded 200 in 11.5441 ms
+2025-05-28 19:48:58.801 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1132 ms
+2025-05-28 19:48:58.805 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1451 ms
+2025-05-28 19:48:58.820 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.8134 ms
+2025-05-28 19:48:58.902 +06:00 [INF] HTTP GET /api/Carts responded 200 in 88.1633 ms
+2025-05-28 19:49:02.521 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.5985 ms
+2025-05-28 19:49:02.540 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1056 ms
+2025-05-28 19:49:02.541 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1099 ms
+2025-05-28 19:49:02.553 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.3624 ms
+2025-05-28 19:49:02.555 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.7121 ms
+2025-05-28 19:49:05.204 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.3038 ms
+2025-05-28 19:49:05.229 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1031 ms
+2025-05-28 19:49:05.237 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1204 ms
+2025-05-28 19:49:05.245 +06:00 [INF] HTTP GET /api/Carts responded 200 in 1.8955 ms
+2025-05-28 19:49:05.249 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.3283 ms
+2025-05-28 19:49:11.397 +06:00 [INF] HTTP GET /Products/Index responded 200 in 28.1959 ms
+2025-05-28 19:49:11.443 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.4870 ms
+2025-05-28 19:49:11.456 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1304 ms
+2025-05-28 19:49:11.497 +06:00 [INF] HTTP GET /Products/Index responded 200 in 15.1481 ms
+2025-05-28 19:49:11.497 +06:00 [INF] HTTP GET /api/Carts responded 200 in 15.5139 ms
+2025-05-28 19:49:15.984 +06:00 [ERR] HTTP GET /Products/Index responded 500 in 19.8735 ms
+System.Runtime.CompilerServices.HotReloadException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at IndexModel.set_UniqueCount(Nullable`1 value)
+   at IndexModel.OnGetAsync(Int32 pageNumber, Int32 pageSize, String search)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-05-28 19:49:16.053 +06:00 [ERR] Unhandled Exception: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+System.Runtime.CompilerServices.HotReloadException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at IndexModel.set_UniqueCount(Nullable`1 value)
+   at IndexModel.OnGetAsync(Int32 pageNumber, Int32 pageSize, String search)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at MyApp.Api.Middleware.CustomUnauthorizedResponseMiddleware.InvokeAsync(HttpContext context)
+2025-05-28 19:49:37 [Information] Starting MyApp...
+2025-05-28 19:49:50 [Warning] Failed to determine the https port for redirect.
+2025-05-28 19:49:50 [Information] HTTP "GET" "/Products/Index" responded 200 in 415.4349 ms
+2025-05-28 19:49:50 [Information] HTTP "GET" "/css/home.css" responded 404 in 1.2347 ms
+2025-05-28 19:49:50 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 2.1988 ms
+2025-05-28 19:49:50 [Information] HTTP "GET" "/Products/Index" responded 200 in 127.8227 ms
+2025-05-28 19:49:50 [Information] HTTP "GET" "/api/Carts" responded 200 in 144.4983 ms
+2025-05-28 19:50:17 [Information] HTTP "POST" "/api/Products" responded 201 in 2463.0075 ms
+2025-05-28 19:50:17 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.4274 ms
+2025-05-28 19:50:22 [Information] HTTP "GET" "/Products/Index" responded 200 in 9.8397 ms
+2025-05-28 19:50:22 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1177 ms
+2025-05-28 19:50:22 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1395 ms
+2025-05-28 19:50:22 [Information] HTTP "GET" "/Products/Index" responded 200 in 6.3503 ms
+2025-05-28 19:50:23 [Information] HTTP "GET" "/api/Carts" responded 200 in 72.7895 ms

@@ -1,0 +1,14 @@
+2025-05-28 19:49:37.972 +06:00 [INF] Starting MyApp...
+2025-05-28 19:49:50.302 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-28 19:49:50.721 +06:00 [INF] HTTP GET /Products/Index responded 200 in 415.4349 ms
+2025-05-28 19:49:50.743 +06:00 [INF] HTTP GET /css/home.css responded 404 in 1.2347 ms
+2025-05-28 19:49:50.744 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 2.1988 ms
+2025-05-28 19:49:50.885 +06:00 [INF] HTTP GET /Products/Index responded 200 in 127.8227 ms
+2025-05-28 19:49:50.902 +06:00 [INF] HTTP GET /api/Carts responded 200 in 144.4983 ms
+2025-05-28 19:50:17.378 +06:00 [INF] HTTP POST /api/Products responded 201 in 2463.0075 ms
+2025-05-28 19:50:17.389 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.4274 ms
+2025-05-28 19:50:22.926 +06:00 [INF] HTTP GET /Products/Index responded 200 in 9.8397 ms
+2025-05-28 19:50:22.948 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1177 ms
+2025-05-28 19:50:22.952 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1395 ms
+2025-05-28 19:50:22.972 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.3503 ms
+2025-05-28 19:50:23.039 +06:00 [INF] HTTP GET /api/Carts responded 200 in 72.7895 ms
