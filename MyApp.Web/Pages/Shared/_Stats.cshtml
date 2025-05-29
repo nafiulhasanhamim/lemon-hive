@@ -1,0 +1,28 @@
+@* /Pages/Shared/_Stats.cshtml *@
+@model IndexModel
+
+<section class="stats-section">
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-icon">🛍️</div>
+      <div class="stat-content">
+        <h3>Total Products: @Model.TotalProducts</h3>
+        <p>Maximum sale of all the products<br/>during last month</p>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">👥</div>
+      <div class="stat-content">
+        <h3>Total Vendors: @Model.TotalVendors</h3>
+        <p>@Model.TotalVendors vendors available</p>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">📦</div>
+      <div class="stat-content">
+        <h3>Unique Products: @Model.UniqueCount</h3>
+        <p>Recognized as unique products</p>
+      </div>
+    </div>
+  </div>
+</section>

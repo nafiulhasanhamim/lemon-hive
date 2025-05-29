@@ -1,0 +1,33 @@
+@* /Pages/Shared/_ProductsGrid.cshtml *@
+@model IEnumerable<MyApp.Application.DTOs.GetProductDto>
+
+<section class="products-section">
+  <div class="products-grid" id="productsGrid">
+    @foreach(var p in Model) {
+      <div class="product-card" data-product-id="@p.ProductId">
+        <img src="@p.ProductImage"
+             alt="@p.ProductName"
+             class="product-image"/>
+        <div class="product-content">
+          <div class="product-name">@p.ProductName</div>
+          <div class="product-price">
+            @if(p.DiscountedPrice < p.Price) {
+              <span class="discounted-price">@p.DiscountedPrice.ToString("C")</span>
+              <span class="original-price">@p.Price.ToString("C")</span>
+            } else {
+              <span class="price">@p.Price.ToString("C")</span>
+            }
+          </div>
+          <div class="cart-controls">
+            <div class="quantity-controls">
+              <button class="quantity-btn" data-action="decrease">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn" data-action="increase">+</button>
+              <button class="confirm-add-btn" data-action="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</section>

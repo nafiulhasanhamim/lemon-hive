@@ -6,18 +6,18 @@
 }
 
 @section Styles {
-    <link rel="stylesheet" href="~/css/home.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
 }
+
 
 <header class="header">
   <div class="container">
     <div class="header-content">
       <div class="logo">E-Bazaar</div>
-<div class="cart" onclick="home.openCartSidebar()">
-  <div class="cart-icon"></div>
-  Cart (<span id="cartCount">@Model.CartCount</span>)
-</div>
-
+      <div class="cart" id="cartButton">
+        <div class="cart-icon"></div>
+        Cart (<span id="cartCount">@Model.CartCount</span>)
+      </div>
     </div>
   </div>
 </header>
@@ -27,7 +27,6 @@
      display: flex; flex-direction: column; gap: 0.5rem;
      z-index: 9999;">
 </div>
-
 
 <main class="container">
   <!-- Stats -->
@@ -50,7 +49,7 @@
       <div class="stat-card">
         <div class="stat-icon">📦</div>
         <div class="stat-content">
-          <h3>Unique Products: @Model.UniqueProducts</h3>
+          <h3>Unique Products: @Model.UniqueCount</h3>
           <p>Recognized as unique products</p>
         </div>
       </div>
@@ -60,9 +59,9 @@
   <!-- Search -->
   <section class="search-section">
     <div class="search-bar">
-      <input type="text" id="searchInput" class="search-input" placeholder="Search…" value="@Model.SearchText" onkeydown="if(event.key==='Enter') home.applyFilters()" />
-      <button class="search-btn" onclick="home.applyFilters()">Search</button>
-      <button class="add-product-btn" onclick="home.openModal()">Add Product</button>
+      <input type="text" id="searchInput" class="search-input" placeholder="Search…" value="@Model.SearchText" />
+      <button id="searchBtn" class="search-btn">Search</button>
+      <button id="addProductBtn" class="add-product-btn">Add Product</button>
     </div>
     <div class="results-info" id="resultsInfo">
       Showing @Model.StartResult–@Model.EndResult of @Model.TotalResults results
@@ -70,69 +69,65 @@
   </section>
 
   <!-- Products -->
-   <section class="products-section">
-    <div class="products-grid" id="productsGrid">
-      @foreach(var p in Model.Products) {
-<div class="product-card" data-product-id="@p.ProductId">
-          <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop&crop=center" alt="DJI Phantom 3 Vision" class="product-image">          
-          <div class="product-content">
-            <div class="product-name">@p.ProductName</div>
-            <div class="product-price">
-              @if(p.DiscountedPrice < p.Price) {
-                <span class="discounted-price">@p.DiscountedPrice.ToString("C")</span>
-                <span class="original-price" style="text-decoration: line-through; color: #999; margin-left: 8px;">@p.Price.ToString("C")</span>
-              } else {
-                <span class="price">@p.Price.ToString("C")</span>
-              }
-            </div>
-            <div class="cart-controls">
-              <div class="quantity-controls">
-                <div class="quantity-row">
-                  <button class="quantity-btn" onclick="home.decreaseQuantity(this)">-</button>
-                  <span class="quantity-display">1</span>
-                  <button class="quantity-btn" onclick="home.increaseQuantity(this)">+</button>
-                </div>
-                <button class="confirm-add-btn" onclick="home.addToCart(this)">Add to Cart</button>
-              </div>
-              <button class="add-to-cart">Add to cart</button>
+<section class="products-section">
+  <div class="products-grid" id="productsGrid">
+    @foreach(var p in Model.Products) {
+      <div class="product-card" data-product-id="@p.ProductId">
+        <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop&crop=center" 
+             alt="@p.ProductName" class="product-image">
+        <div class="product-content">
+          <div class="product-name">@p.ProductName</div>
+          <div class="product-price">
+            @if(p.DiscountedPrice < p.Price) {
+              <span class="discounted-price">@p.DiscountedPrice.ToString("C")</span>
+              <span class="original-price">@p.Price.ToString("C")</span>
+            } else {
+              <span class="price">@p.Price.ToString("C")</span>
+            }
+          </div>
+          <div class="cart-controls">
+            <button class="add-to-cart" data-action="add-to-cart">Add to Cart</button>
+            <div class="quantity-controls">
+              <button class="quantity-btn" data-action="decrease">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn" data-action="increase">+</button>
             </div>
           </div>
         </div>
-      }
-    </div>
+      </div>
+    }
+  </div>
 
-    <!-- Pagination -->
-    <div class="pagination">
-      <button id="prevBtn" onclick="home.prevPage()">← Prev</button>
-      <span id="pageButtons"></span>
-      <button id="nextBtn" onclick="home.nextPage()">Next →</button>
+  <!-- Pagination -->
+  <div class="pagination">
+    <button id="prevBtn" class="pagination-btn">← Prev</button>
+    <span id="pageButtons"></span>
+    <button id="nextBtn" class="pagination-btn">Next →</button>
 
-      <div class="per-page-select">
-        <button class="per-page-btn" id="perPageBtn" onclick="home.togglePerDropdown()">
-          @Model.PageSize per page
-        </button>
-        <div class="per-page-dropdown" id="perDropdown">
-          <button class="per-page-option" onclick="home.changePerPage(5)">5 per page</button>
-          <button class="per-page-option" onclick="home.changePerPage(10)">10 per page</button>
-          <button class="per-page-option" onclick="home.changePerPage(20)">20 per page</button>
-          <button class="per-page-option" onclick="home.changePerPage(50)">50 per page</button>
-        </div>
+    <div class="per-page-select">
+      <button class="per-page-btn" id="perPageBtn">
+        @Model.PageSize per page
+      </button>
+      <div class="per-page-dropdown" id="perDropdown">
+        <button class="per-page-option" data-value="5">5 per page</button>
+        <button class="per-page-option" data-value="10">10 per page</button>
+        <button class="per-page-option" data-value="20">20 per page</button>
+        <button class="per-page-option" data-value="50">50 per page</button>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 </main>
 
 <!-- Add Product Modal -->
-
-<div class="modal-overlay" id="modalOverlay" onclick="home.closeModalOnOverlay(event)">
+<div class="modal-overlay" id="modalOverlay">
   <div class="modal">
     <div class="modal-header">
       <div>
         <h2 class="modal-title">Add New Product</h2>
-        
         <p class="modal-subtitle">Enter product details.</p>
       </div>
-      <button class="modal-close" onclick="home.closeModal()">×</button>
+      <button id="modalCloseBtn" class="modal-close">×</button>
     </div>
     <div class="modal-body">
       <div id="formErrors" class="form-errors" style="color:#d9534f; margin-bottom:1rem;"></div>
@@ -140,19 +135,19 @@
       <form id="addProductForm">
         <div class="form-group">
           <label class="form-label">Product Name</label>
-          <input type="text" id="productName" class="form-input" oninput="home.generateSlug()" />
+          <input type="text" id="productName" class="form-input" />
         </div>
         <div class="form-group">
           <label class="form-label">Slug</label>
           <div class="form-row">
             <input type="text" id="productSlug" class="form-input" />
-            <button type="button" class="generate-btn" onclick="home.generateSlug()">Generate</button>
+            <button type="button" id="generateSlugBtn" class="generate-btn">Generate</button>
           </div>
         </div>
         <div class="form-group">
           <label class="form-label">Product Image URL</label>
           <input type="text" id="productImage" class="form-input" placeholder="https://example.com/img.jpg" />
-          </div>
+        </div>
 
         <div class="form-group">
           <label class="form-label">Price</label>
@@ -161,46 +156,35 @@
         <div class="form-group">
           <label class="form-label">Discount Start</label>
           <div class="date-input-wrapper">
-            <input type="date" id="discountStart" class="date-input" value="@DateTime.UtcNow:yyyy-MM-dd" />
+            <input type="date" id="discountStart" class="date-input" value="@DateTime.UtcNow.ToString("yyyy-MM-dd")" />
             <div class="calendar-icon"></div>
           </div>
         </div>
         <div class="form-group">
           <label class="form-label">Discount End</label>
           <div class="date-input-wrapper">
-            <input type="date" id="discountEnd" class="date-input" value="@DateTime.UtcNow.AddDays(1):yyyy-MM-dd" />
+            <input type="date" id="discountEnd" class="date-input" value="@DateTime.UtcNow.AddDays(1).ToString("yyyy-MM-dd")" />
             <div class="calendar-icon"></div>
           </div>
         </div>
       </form>
     </div>
     <div class="modal-footer">
-      <button class="add-btn" onclick="home.submitProduct()">Add</button>
+      <button id="submitProductBtn" class="add-btn">Add</button>
     </div>
   </div>
 </div>
 
 <!-- Shopping Cart Sidebar -->
-<div class="cart-sidebar-overlay" id="cartSidebarOverlay" onclick="home.closeCartSidebar(event)">
+<div class="cart-sidebar-overlay" id="cartSidebarOverlay">
   <div class="cart-sidebar">
     <div class="cart-header">
       <h3 class="cart-title">Shopping Cart</h3>
-      <button class="cart-close" onclick="home.closeCartSidebar()">×</button>
+      <button id="cartCloseBtn" class="cart-close">×</button>
     </div>
     <div class="cart-items" id="cartItems">
-      @* Loop Model.CartItems here *@
-      <div class="cart-item">
-        <img src="~/images/placeholder.png" class="cart-item-image" />
-        <div class="cart-item-details">
-          <div class="cart-item-name">Sample Product</div>
-          <div class="cart-item-price">$0.00</div>
-          <div class="cart-item-quantity">
-            <button class="qty-btn" onclick="home.updateCartQuantity(this,-1)">-</button>
-            <span class="qty-number">1</span>
-            <button class="qty-btn" onclick="home.updateCartQuantity(this,1)">+</button>
-          </div>
-        </div>
-      </div>
+      <!-- Cart items will be populated dynamically -->
+      <div class="empty-message">Your cart is empty</div>
     </div>
     <div class="cart-footer">
       <div class="cart-subtotal">
@@ -220,5 +204,5 @@
         searchText: '@Model.SearchText'
       };
     </script>
-    <script src="~/js/home.js"></script>
+    <script type="module" src="~/js/main.js"></script>
 }

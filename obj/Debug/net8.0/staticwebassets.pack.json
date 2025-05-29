@@ -1,12 +1,72 @@
 {
   "Files": [
     {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\base.css",
+      "PackagePath": "staticwebassets\\css\\base.css"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\modal.css",
+      "PackagePath": "staticwebassets\\css\\modal.css"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\pagination.css",
+      "PackagePath": "staticwebassets\\css\\pagination.css"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\products.css",
+      "PackagePath": "staticwebassets\\css\\products.css"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\search.css",
+      "PackagePath": "staticwebassets\\css\\search.css"
+    },
+    {
       "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\home.js",
-      "PackagePath": "staticwebassets\\js\\home.js"
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\stats.css",
+      "PackagePath": "staticwebassets\\css\\stats.css"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\init.js",
+      "PackagePath": "staticwebassets\\js\\init.js"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\modal.js",
+      "PackagePath": "staticwebassets\\js\\modal.js"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\products.js",
+      "PackagePath": "staticwebassets\\js\\products.js"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\state.js",
+      "PackagePath": "staticwebassets\\js\\state.js"
+    },
+    {
+      "Id": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\utilities.js",
+      "PackagePath": "staticwebassets\\js\\utilities.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.lemonhive.props",

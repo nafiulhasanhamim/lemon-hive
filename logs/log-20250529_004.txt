@@ -1,0 +1,280 @@
+2025-05-29 01:01:25.369 +06:00 [INF] Starting MyApp...
+2025-05-29 01:02:29.219 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-29 01:02:29.715 +06:00 [INF] HTTP GET /Products/Index responded 200 in 492.2037 ms
+2025-05-29 01:02:29.755 +06:00 [INF] HTTP GET /css/home.css responded 404 in 1.7539 ms
+2025-05-29 01:02:29.760 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 2.1102 ms
+2025-05-29 01:02:29.940 +06:00 [INF] HTTP GET /Products/Index responded 200 in 147.8042 ms
+2025-05-29 01:02:29.959 +06:00 [INF] HTTP GET /api/Carts responded 200 in 167.1606 ms
+2025-05-29 01:02:34.303 +06:00 [INF] HTTP GET /Products/Index responded 200 in 16.6744 ms
+2025-05-29 01:02:35.930 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.3984 ms
+2025-05-29 01:08:52.233 +06:00 [INF] HTTP GET /Products/Index responded 200 in 66.9753 ms
+2025-05-29 01:08:52.260 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1228 ms
+2025-05-29 01:08:52.264 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1152 ms
+2025-05-29 01:08:52.271 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.2101 ms
+2025-05-29 01:08:52.333 +06:00 [INF] HTTP GET /api/Carts responded 200 in 63.9890 ms
+2025-05-29 01:08:59.200 +06:00 [INF] HTTP GET /Products/Index responded 200 in 11.3295 ms
+2025-05-29 01:08:59.228 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.2728 ms
+2025-05-29 01:08:59.238 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0975 ms
+2025-05-29 01:08:59.248 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.5115 ms
+2025-05-29 01:08:59.248 +06:00 [INF] HTTP GET /api/Carts responded 200 in 4.6729 ms
+2025-05-29 01:09:00.804 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.7937 ms
+2025-05-29 01:09:00.821 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1029 ms
+2025-05-29 01:09:00.826 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0806 ms
+2025-05-29 01:09:00.836 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.4105 ms
+2025-05-29 01:09:00.838 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.5856 ms
+2025-05-29 01:09:31.225 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.8622 ms
+2025-05-29 01:09:31.249 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1003 ms
+2025-05-29 01:09:31.261 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1190 ms
+2025-05-29 01:09:31.267 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.1235 ms
+2025-05-29 01:09:31.268 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.9252 ms
+2025-05-29 01:09:51.239 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.9224 ms
+2025-05-29 01:09:51.270 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1134 ms
+2025-05-29 01:09:51.273 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0880 ms
+2025-05-29 01:09:51.277 +06:00 [INF] HTTP GET /api/Carts responded 200 in 1.8498 ms
+2025-05-29 01:09:51.279 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.4306 ms
+2025-05-29 01:27:29.512 +06:00 [INF] HTTP GET /Products/Index responded 200 in 92.6398 ms
+2025-05-29 01:27:29.577 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1504 ms
+2025-05-29 01:27:29.589 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1451 ms
+2025-05-29 01:27:29.600 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.9039 ms
+2025-05-29 01:27:29.666 +06:00 [INF] HTTP GET /api/Carts responded 200 in 71.0565 ms
+2025-05-29 01:28:37.314 +06:00 [INF] HTTP GET /Products/Index responded 200 in 15.3570 ms
+2025-05-29 01:28:37.372 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0795 ms
+2025-05-29 01:28:37.393 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1484 ms
+2025-05-29 01:28:37.411 +06:00 [INF] HTTP GET /api/Carts responded 200 in 3.4168 ms
+2025-05-29 01:28:37.416 +06:00 [INF] HTTP GET /Products/Index responded 200 in 8.0434 ms
+2025-05-29 01:28:38.811 +06:00 [INF] HTTP GET /Products/Index responded 200 in 27.6734 ms
+2025-05-29 01:28:38.854 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0883 ms
+2025-05-29 01:28:38.867 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0972 ms
+2025-05-29 01:28:38.875 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.3242 ms
+2025-05-29 01:28:38.877 +06:00 [INF] HTTP GET /api/Carts responded 200 in 5.8437 ms
+2025-05-29 01:31:18.612 +06:00 [INF] HTTP GET /Products/Index responded 200 in 12.6558 ms
+2025-05-29 01:31:18.670 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1043 ms
+2025-05-29 01:31:18.677 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.3145 ms
+2025-05-29 01:31:18.689 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.9583 ms
+2025-05-29 01:31:18.693 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.4129 ms
+2025-05-29 01:31:22.746 +06:00 [INF] HTTP GET /Products/Index responded 200 in 8.8315 ms
+2025-05-29 01:31:22.771 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1496 ms
+2025-05-29 01:31:22.787 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0705 ms
+2025-05-29 01:31:22.800 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.7482 ms
+2025-05-29 01:31:22.801 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.0541 ms
+2025-05-29 01:31:54.633 +06:00 [INF] HTTP GET /Products/Index responded 200 in 13.0012 ms
+2025-05-29 01:31:54.666 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0685 ms
+2025-05-29 01:31:54.680 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0960 ms
+2025-05-29 01:31:54.689 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.3802 ms
+2025-05-29 01:31:54.691 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.4984 ms
+2025-05-29 01:32:09.124 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.8465 ms
+2025-05-29 01:32:09.159 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0732 ms
+2025-05-29 01:32:09.170 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.4067 ms
+2025-05-29 01:32:09.184 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.2891 ms
+2025-05-29 01:32:09.185 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.6670 ms
+2025-05-29 01:32:22.964 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.3545 ms
+2025-05-29 01:32:22.991 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0616 ms
+2025-05-29 01:32:23.006 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1101 ms
+2025-05-29 01:32:23.016 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.1275 ms
+2025-05-29 01:32:23.018 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.2379 ms
+2025-05-29 01:32:33.451 +06:00 [INF] HTTP GET /Products/Index responded 200 in 99.1306 ms
+2025-05-29 01:32:33.469 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0715 ms
+2025-05-29 01:32:33.481 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0678 ms
+2025-05-29 01:32:33.485 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.7498 ms
+2025-05-29 01:32:33.555 +06:00 [INF] HTTP GET /api/Carts responded 200 in 73.5071 ms
+2025-05-29 01:33:12.971 +06:00 [INF] HTTP GET /Products/Index responded 200 in 9.7714 ms
+2025-05-29 01:33:13.005 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0728 ms
+2025-05-29 01:33:13.020 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0686 ms
+2025-05-29 01:33:13.031 +06:00 [INF] HTTP GET /api/Carts responded 200 in 4.3698 ms
+2025-05-29 01:33:13.034 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.3881 ms
+2025-05-29 01:33:58.055 +06:00 [INF] HTTP GET /Products/Index responded 200 in 10.6092 ms
+2025-05-29 01:33:58.147 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0833 ms
+2025-05-29 01:33:58.155 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1490 ms
+2025-05-29 01:33:58.160 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.8902 ms
+2025-05-29 01:33:58.161 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.6931 ms
+2025-05-29 01:34:28.268 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.2416 ms
+2025-05-29 01:34:28.320 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1258 ms
+2025-05-29 01:34:28.320 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0565 ms
+2025-05-29 01:34:28.337 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.3150 ms
+2025-05-29 01:34:28.339 +06:00 [INF] HTTP GET /api/Carts responded 200 in 5.6382 ms
+2025-05-29 01:35:04.556 +06:00 [INF] HTTP GET /Products/Index responded 200 in 13.3485 ms
+2025-05-29 01:35:04.598 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0415 ms
+2025-05-29 01:35:04.602 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0602 ms
+2025-05-29 01:35:04.610 +06:00 [INF] HTTP GET /api/Carts responded 200 in 1.8613 ms
+2025-05-29 01:35:04.611 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.2473 ms
+2025-05-29 01:35:25.038 +06:00 [INF] HTTP GET /Products/Index responded 200 in 12.7570 ms
+2025-05-29 01:35:25.104 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0788 ms
+2025-05-29 01:35:25.109 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0567 ms
+2025-05-29 01:35:25.118 +06:00 [INF] HTTP GET /api/Carts responded 200 in 3.2206 ms
+2025-05-29 01:35:25.119 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.5093 ms
+2025-05-29 01:35:43.153 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.5311 ms
+2025-05-29 01:35:43.184 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0594 ms
+2025-05-29 01:35:43.185 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0962 ms
+2025-05-29 01:35:43.198 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.0059 ms
+2025-05-29 01:35:43.199 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.6539 ms
+2025-05-29 01:35:46.480 +06:00 [INF] HTTP POST /api/Carts responded 201 in 388.4826 ms
+2025-05-29 01:35:47.260 +06:00 [INF] HTTP POST /api/Carts responded 400 in 10.7683 ms
+2025-05-29 01:35:56.954 +06:00 [INF] HTTP GET /Products/Index responded 200 in 26.0733 ms
+2025-05-29 01:35:58.349 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.8529 ms
+2025-05-29 01:49:05.303 +06:00 [INF] HTTP GET /Products/Index responded 200 in 133.9346 ms
+2025-05-29 01:49:05.367 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.3477 ms
+2025-05-29 01:49:05.367 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0549 ms
+2025-05-29 01:49:05.398 +06:00 [INF] HTTP GET /Products/Index responded 200 in 13.9312 ms
+2025-05-29 01:49:05.399 +06:00 [INF] HTTP GET /api/Carts responded 200 in 14.3042 ms
+2025-05-29 01:49:12.043 +06:00 [INF] HTTP POST /api/Carts responded 201 in 24.6355 ms
+2025-05-29 01:49:14.270 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.5326 ms
+2025-05-29 01:49:16.462 +06:00 [INF] HTTP PUT /api/Carts/8136c8aa-d47a-4d13-b3e8-cae1d274ce9f responded 405 in 1.9790 ms
+2025-05-29 01:49:17.525 +06:00 [INF] HTTP PUT /api/Carts/8136c8aa-d47a-4d13-b3e8-cae1d274ce9f responded 405 in 0.1995 ms
+2025-05-29 01:49:47.262 +06:00 [INF] HTTP GET /Products/Index responded 200 in 2.4063 ms
+2025-05-29 01:49:47.267 +06:00 [INF] HTTP GET /Products/Index responded 200 in 2.6504 ms
+2025-05-29 01:49:47.281 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0515 ms
+2025-05-29 01:49:47.285 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0465 ms
+2025-05-29 01:49:47.295 +06:00 [INF] HTTP GET /api/Carts responded 200 in 1.5910 ms
+2025-05-29 01:49:47.390 +06:00 [INF] HTTP GET /Products/Index responded 200 in 97.0377 ms
+2025-05-29 01:56:27.235 +06:00 [INF] HTTP GET /Products/Index responded 200 in 112.0056 ms
+2025-05-29 01:56:27.272 +06:00 [INF] HTTP GET /Products/Index responded 200 in 132.8796 ms
+2025-05-29 01:56:27.290 +06:00 [INF] HTTP GET /Products/Index responded 200 in 92.3842 ms
+2025-05-29 01:56:27.320 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1184 ms
+2025-05-29 01:56:27.335 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0805 ms
+2025-05-29 01:56:27.349 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.5885 ms
+2025-05-29 01:56:27.354 +06:00 [INF] HTTP GET /api/Carts responded 200 in 5.2511 ms
+2025-05-29 01:56:27.383 +06:00 [INF] HTTP GET /Products/Index responded 200 in 195.1199 ms
+2025-05-29 01:56:55.577 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.7278 ms
+2025-05-29 01:56:55.584 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.1644 ms
+2025-05-29 01:56:55.610 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1223 ms
+2025-05-29 01:56:55.613 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0703 ms
+2025-05-29 01:56:55.637 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.2896 ms
+2025-05-29 01:56:55.641 +06:00 [INF] HTTP GET /api/Carts responded 200 in 6.1704 ms
+2025-05-29 01:57:42.216 +06:00 [INF] HTTP GET /Products/Index responded 200 in 17.3017 ms
+2025-05-29 01:57:42.217 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.6594 ms
+2025-05-29 01:57:42.276 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1028 ms
+2025-05-29 01:57:42.287 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.3423 ms
+2025-05-29 01:57:42.566 +06:00 [INF] HTTP GET /api/Carts responded 200 in 8.0338 ms
+2025-05-29 01:57:42.566 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.4427 ms
+2025-05-29 01:58:08.492 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.2137 ms
+2025-05-29 01:58:08.494 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.5912 ms
+2025-05-29 01:58:08.509 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.2457 ms
+2025-05-29 01:58:08.516 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0628 ms
+2025-05-29 01:58:08.524 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.3568 ms
+2025-05-29 01:58:08.526 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.8041 ms
+2025-05-29 01:58:16.759 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.6010 ms
+2025-05-29 01:58:16.767 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.8022 ms
+2025-05-29 01:58:16.786 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1219 ms
+2025-05-29 01:58:16.790 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0377 ms
+2025-05-29 01:58:16.801 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.8307 ms
+2025-05-29 01:58:16.804 +06:00 [INF] HTTP GET /api/Carts responded 200 in 7.0510 ms
+2025-05-29 01:58:33.596 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.5660 ms
+2025-05-29 01:58:33.605 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.5680 ms
+2025-05-29 01:58:33.629 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1211 ms
+2025-05-29 01:58:33.642 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1140 ms
+2025-05-29 01:58:33.659 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.8720 ms
+2025-05-29 01:58:33.661 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.5751 ms
+2025-05-29 01:58:44.138 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.0736 ms
+2025-05-29 01:58:44.147 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.2565 ms
+2025-05-29 01:58:44.156 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.9157 ms
+2025-05-29 01:58:44.181 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0808 ms
+2025-05-29 01:58:44.187 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0771 ms
+2025-05-29 01:58:44.221 +06:00 [INF] HTTP GET /api/Carts responded 200 in 3.0214 ms
+2025-05-29 01:58:44.224 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.6269 ms
+2025-05-29 01:58:57.094 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.5273 ms
+2025-05-29 01:58:57.100 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.8625 ms
+2025-05-29 01:58:57.114 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0463 ms
+2025-05-29 01:58:57.117 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.2720 ms
+2025-05-29 01:58:57.124 +06:00 [INF] HTTP GET /api/Carts responded 200 in 2.1752 ms
+2025-05-29 01:58:57.125 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.4272 ms
+2025-05-29 01:59:37.363 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.6045 ms
+2025-05-29 01:59:37.371 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.5502 ms
+2025-05-29 01:59:37.405 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.1025 ms
+2025-05-29 01:59:37.421 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.0856 ms
+2025-05-29 01:59:37.445 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.4751 ms
+2025-05-29 01:59:37.446 +06:00 [INF] HTTP GET /api/Carts responded 200 in 5.6811 ms
+2025-05-29 02:00:14.282 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.6108 ms
+2025-05-29 02:00:14.306 +06:00 [INF] HTTP GET /css/home.css responded 404 in 0.0513 ms
+2025-05-29 02:00:14.313 +06:00 [INF] HTTP GET /images/placeholder.png responded 404 in 0.1071 ms
+2025-05-29 02:00:14.370 +06:00 [INF] HTTP GET /api/Carts responded 200 in 28.6194 ms
+2025-05-29 02:00:14.371 +06:00 [INF] HTTP GET /Products/Index responded 200 in 30.5820 ms
+2025-05-29 02:00:48 [Information] Starting MyApp...
+2025-05-29 02:00:56 [Warning] Failed to determine the https port for redirect.
+2025-05-29 02:00:57 [Information] HTTP "GET" "/Products/Index" responded 200 in 790.1293 ms
+2025-05-29 02:00:57 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 3.4030 ms
+2025-05-29 02:00:57 [Information] HTTP "GET" "/css/home.css" responded 404 in 3.4031 ms
+2025-05-29 02:01:13 [Information] HTTP "GET" "/Products/Index" responded 200 in 74.8656 ms
+2025-05-29 02:01:13 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1052 ms
+2025-05-29 02:01:13 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.2085 ms
+2025-05-29 02:03:00 [Information] HTTP "GET" "/Products/Index" responded 200 in 18.1818 ms
+2025-05-29 02:03:00 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1365 ms
+2025-05-29 02:03:00 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1704 ms
+2025-05-29 02:03:00 [Information] HTTP "GET" "/favicon.ico" responded 404 in 0.0942 ms
+2025-05-29 02:11:55 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.7622 ms
+2025-05-29 02:11:55 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1101 ms
+2025-05-29 02:11:55 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1243 ms
+2025-05-29 02:11:55 [Information] HTTP "GET" "/Products/Index" responded 200 in 141.0733 ms
+2025-05-29 02:12:07 [Information] HTTP "GET" "/Products/Index" responded 200 in 8.4409 ms
+2025-05-29 02:12:07 [Information] HTTP "GET" "/Products/Index" responded 200 in 7.0067 ms
+2025-05-29 02:12:07 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1122 ms
+2025-05-29 02:12:07 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1084 ms
+2025-05-29 02:12:44 [Information] HTTP "GET" "/Products/Index" responded 200 in 7.4696 ms
+2025-05-29 02:12:44 [Information] HTTP "GET" "/Products/Index" responded 200 in 7.3230 ms
+2025-05-29 02:12:44 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1054 ms
+2025-05-29 02:12:44 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.2399 ms
+2025-05-29 02:12:47 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.9646 ms
+2025-05-29 02:12:47 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.0145 ms
+2025-05-29 02:12:47 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1190 ms
+2025-05-29 02:12:47 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1029 ms
+2025-05-29 02:12:55 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.9272 ms
+2025-05-29 02:12:55 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.8571 ms
+2025-05-29 02:12:55 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0835 ms
+2025-05-29 02:12:55 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1613 ms
+2025-05-29 02:13:20 [Information] HTTP "GET" "/Products/Index" responded 200 in 9.5727 ms
+2025-05-29 02:13:20 [Information] HTTP "GET" "/Products/Index" responded 200 in 6.2222 ms
+2025-05-29 02:13:20 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.1149 ms
+2025-05-29 02:13:20 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1287 ms
+2025-05-29 02:13:24 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.9685 ms
+2025-05-29 02:13:24 [Information] HTTP "GET" "/Products/Index" responded 200 in 6.6668 ms
+2025-05-29 02:13:24 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0638 ms
+2025-05-29 02:13:24 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0942 ms
+2025-05-29 02:13:32 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.7486 ms
+2025-05-29 02:13:32 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.7765 ms
+2025-05-29 02:13:32 [Information] HTTP "GET" "/Products/Index" responded 200 in 3.4134 ms
+2025-05-29 02:13:32 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0602 ms
+2025-05-29 02:13:32 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0835 ms
+2025-05-29 02:13:36 [Information] HTTP "GET" "/Products/Index" responded 200 in 6.0684 ms
+2025-05-29 02:13:36 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.7956 ms
+2025-05-29 02:13:36 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0668 ms
+2025-05-29 02:13:36 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0654 ms
+2025-05-29 02:13:45 [Information] HTTP "GET" "/Products/Index" responded 200 in 3.7589 ms
+2025-05-29 02:13:45 [Information] HTTP "GET" "/Products/Index" responded 200 in 3.2703 ms
+2025-05-29 02:13:45 [Information] HTTP "GET" "/Products/Index" responded 200 in 2.8126 ms
+2025-05-29 02:13:45 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0706 ms
+2025-05-29 02:13:45 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0695 ms
+2025-05-29 02:13:48 [Information] HTTP "GET" "/Products/Index" responded 200 in 6.3315 ms
+2025-05-29 02:13:48 [Information] HTTP "GET" "/Products/Index" responded 200 in 6.3068 ms
+2025-05-29 02:13:48 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0678 ms
+2025-05-29 02:13:48 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0944 ms
+2025-05-29 02:13:55 [Information] HTTP "GET" "/Products/Index" responded 200 in 3.3002 ms
+2025-05-29 02:13:55 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.4623 ms
+2025-05-29 02:13:55 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0456 ms
+2025-05-29 02:13:55 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.2450 ms
+2025-05-29 02:14:20 [Information] HTTP "GET" "/Products/Index" responded 200 in 8.9708 ms
+2025-05-29 02:14:20 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.4199 ms
+2025-05-29 02:14:20 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0807 ms
+2025-05-29 02:14:20 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1742 ms
+2025-05-29 02:14:28 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.5223 ms
+2025-05-29 02:14:28 [Information] HTTP "GET" "/Products/Index" responded 200 in 3.9698 ms
+2025-05-29 02:14:28 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0638 ms
+2025-05-29 02:14:28 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.1176 ms
+2025-05-29 02:15:31 [Information] HTTP "GET" "/Products/Index" responded 200 in 3.8531 ms
+2025-05-29 02:15:31 [Information] HTTP "GET" "/Products/Index" responded 200 in 3.5886 ms
+2025-05-29 02:15:32 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0434 ms
+2025-05-29 02:15:32 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0758 ms
+2025-05-29 02:15:37 [Information] HTTP "GET" "/Products/Index" responded 200 in 3.9219 ms
+2025-05-29 02:15:37 [Information] HTTP "GET" "/Products/Index" responded 200 in 2.6370 ms
+2025-05-29 02:15:37 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0600 ms
+2025-05-29 02:15:37 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0456 ms
+2025-05-29 02:15:58 [Information] HTTP "GET" "/Products/Index" responded 200 in 2.8622 ms
+2025-05-29 02:15:58 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.4848 ms
+2025-05-29 02:15:58 [Information] HTTP "GET" "/css/home.css" responded 404 in 1.8556 ms
+2025-05-29 02:15:58 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0702 ms
+2025-05-29 02:16:20 [Information] HTTP "GET" "/Products/Index" responded 200 in 7.1346 ms
+2025-05-29 02:16:20 [Information] HTTP "GET" "/Products/Index" responded 200 in 7.0839 ms
+2025-05-29 02:16:20 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0766 ms
+2025-05-29 02:16:20 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0771 ms
+2025-05-29 02:16:25 [Information] HTTP "GET" "/Products/Index" responded 200 in 2.5285 ms
+2025-05-29 02:16:25 [Information] HTTP "GET" "/css/home.css" responded 404 in 0.0576 ms
+2025-05-29 02:16:25 [Information] HTTP "GET" "/images/placeholder.png" responded 404 in 0.0621 ms
+2025-05-29 02:16:25 [Information] HTTP "GET" "/favicon.ico" responded 404 in 0.0817 ms

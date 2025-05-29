@@ -20,6 +20,10 @@ namespace MyApp.Infrastructure.Repositories
         public async Task<PaginatedResult<Product>> GetAllAsync(int page, int size, string? q, string? sort)
         {
             var query = _db.Products.AsNoTracking();
+            
+            var uniqueCount = await query
+                        .GroupBy(p => p.ProductName)
+                        .CountAsync();
 
             if (!string.IsNullOrWhiteSpace(q))
                 query = query.Where(p => EF.Functions.ILike(p.ProductName, $"%{q}%"));
@@ -33,18 +37,21 @@ namespace MyApp.Infrastructure.Repositories
                 _ => query.OrderBy(p => p.ProductId)
             };
 
-            var total = await query.CountAsync();
+            var total = await query.CountAsync();       
+
             var items = await query
                 .Skip((page - 1) * size)
                 .Take(size)
                 .ToListAsync();
+
 
             return new PaginatedResult<Product>
             {
                 Items = items,
                 TotalCount = total,
                 PageNumber = page,
-                PageSize = size
+                PageSize = size,
+                UniqueCount = uniqueCount
             };
         }
 

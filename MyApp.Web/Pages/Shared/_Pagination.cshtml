@@ -1,0 +1,18 @@
+@* /Pages/Shared/_Pagination.cshtml *@
+@model IndexModel
+
+<div class="pagination">
+  <button id="prevBtn" class="pagination-btn">← Prev</button>
+  <span id="pageButtons"></span>
+  <button id="nextBtn" class="pagination-btn">Next →</button>
+
+  <div class="per-page-select">
+    <button class="per-page-btn" id="perPageBtn">@Model.PageSize per page</button>
+    <div class="per-page-dropdown" id="perDropdown">
+      <button class="per-page-option" data-value="5">5 per page</button>
+      <button class="per-page-option" data-value="10">10 per page</button>
+      <button class="per-page-option" data-value="20">20 per page</button>
+      <button class="per-page-option" data-value="50">50 per page</button>
+    </div>
+  </div>
+</div>

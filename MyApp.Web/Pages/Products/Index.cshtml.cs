@@ -10,9 +10,9 @@ public class IndexModel : PageModel
 
     public List<GetProductDto> Products { get; set; } = new();
     public int TotalProducts { get; set; }
-    public int UniqueProducts { get; set; }
     public int TotalVendors { get; set; }
     public int CartCount { get; set; }
+    public int? UniqueCount { get; set; }
     public string SearchText { get; set; } = "";
     public int CurrentPage { get; set; }
     public int PageSize { get; set; }
@@ -38,9 +38,9 @@ public class IndexModel : PageModel
         Products = result.Items.ToList();
         TotalProducts = result.TotalCount;
 
-        UniqueProducts = Products.Select(p => p.ProductName).Distinct().Count();
-        TotalVendors = 8;     // placeholder  
-        CartCount = 0;        // you can fetch real cart count here
+        TotalVendors = 8;
+        CartCount = 0;
+        UniqueCount = result.UniqueCount;
 
         if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
         {

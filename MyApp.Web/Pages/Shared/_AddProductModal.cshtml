@@ -1,0 +1,49 @@
+@* /Pages/Shared/_AddProductModal.cshtml *@
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <div class="modal-header">
+      <div>
+        <h2 class="modal-title">Add New Product</h2>
+        <p class="modal-subtitle">Enter product details.</p>
+      </div>
+      <button id="modalCloseBtn" class="modal-close">×</button>
+    </div>
+    <div class="modal-body">
+      <div id="formErrors" class="form-errors"></div>
+      <form id="addProductForm">
+        <div class="form-group">
+          <label>Product Name</label>
+          <input type="text" id="productName" class="form-input" />
+        </div>
+        <div class="form-group">
+          <label>Slug</label>
+          <div class="form-row">
+            <input type="text" id="productSlug" class="form-input" />
+            <button type="button" id="generateSlugBtn" class="generate-btn">Generate</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Product Image URL</label>
+          <input type="text" id="productImage" class="form-input" />
+        </div>
+        <div class="form-group">
+          <label>Price</label>
+          <input type="text" id="productPrice" class="form-input" />
+        </div>
+        <div class="form-group">
+          <label>Discount Start</label>
+          <input type="date" id="discountStart" class="form-input" 
+                 value="@DateTime.UtcNow:yyyy-MM-dd" />
+        </div>
+        <div class="form-group">
+          <label>Discount End</label>
+          <input type="date" id="discountEnd" class="form-input" 
+                 value="@DateTime.UtcNow.AddDays(1):yyyy-MM-dd" />
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button id="submitProductBtn" class="add-btn">Add</button>
+    </div>
+  </div>
+</div>

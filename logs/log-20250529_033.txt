@@ -1,0 +1,17 @@
+2025-05-29 15:46:35.330 +06:00 [INF] Starting MyApp...
+2025-05-29 15:46:43.280 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-29 15:46:43.907 +06:00 [INF] HTTP GET /Products/Index responded 200 in 621.7489 ms
+2025-05-29 15:46:44.136 +06:00 [INF] HTTP GET /Products/Index responded 200 in 167.4191 ms
+2025-05-29 15:46:44.153 +06:00 [INF] HTTP GET /api/Carts responded 200 in 184.0486 ms
+2025-05-29 15:46:46.431 +06:00 [INF] HTTP GET /api/Carts responded 200 in 11.4372 ms
+2025-05-29 15:49:39.735 +06:00 [INF] HTTP GET /Products/Index responded 200 in 50.1684 ms
+2025-05-29 15:49:40.065 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.8595 ms
+2025-05-29 15:49:40.683 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.3861 ms
+2025-05-29 15:49:41.149 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.0332 ms
+2025-05-29 15:49:44.875 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.3196 ms
+2025-05-29 15:49:46.026 +06:00 [INF] HTTP GET /Products/Index responded 200 in 3.5728 ms
+2025-05-29 15:54:26.324 +06:00 [INF] HTTP POST /api/Products responded 400 in 61.9271 ms
+2025-05-29 15:55:15.973 +06:00 [INF] HTTP POST /api/Products responded 201 in 2595.0302 ms
+2025-05-29 15:55:15.983 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.7172 ms
+2025-05-29 15:55:58.606 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.5007 ms
+2025-05-29 15:56:06.425 +06:00 [INF] HTTP GET /api/Carts responded 200 in 5.6311 ms

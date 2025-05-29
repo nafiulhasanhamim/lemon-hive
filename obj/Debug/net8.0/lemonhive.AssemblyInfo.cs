@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lemonhive")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca26aa17fa523a6425662eaa63cabefe355d079a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3ca3700de8224146842aabaffc89753b9c7fd5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("lemonhive")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lemonhive")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
