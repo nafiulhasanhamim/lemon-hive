@@ -1,0 +1,58 @@
+2025-05-29 12:53:16.570 +06:00 [INF] Starting MyApp...
+2025-05-29 12:53:28.225 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-29 12:53:28.705 +06:00 [INF] HTTP GET /Products/Index responded 200 in 475.0644 ms
+2025-05-29 12:53:28.897 +06:00 [INF] HTTP GET /Products/Index responded 200 in 155.9652 ms
+2025-05-29 12:53:28.916 +06:00 [INF] HTTP GET /api/Carts responded 200 in 175.0465 ms
+2025-05-29 12:53:31.102 +06:00 [INF] HTTP GET /api/Carts responded 200 in 13.1787 ms
+2025-05-29 12:53:35.631 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.3143 ms
+2025-05-29 12:53:37.303 +06:00 [INF] HTTP POST /api/Carts responded 201 in 209.6433 ms
+2025-05-29 12:53:39.239 +06:00 [INF] HTTP GET /api/Carts responded 200 in 3.1194 ms
+2025-05-29 12:53:45.053 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.6252 ms
+2025-05-29 12:53:46.709 +06:00 [INF] HTTP POST /api/Carts responded 201 in 13.5001 ms
+2025-05-29 12:53:49.528 +06:00 [INF] HTTP GET /api/Carts responded 200 in 5.2934 ms
+2025-05-29 12:53:54.754 +06:00 [INF] HTTP GET /Products/Index responded 200 in 8.5727 ms
+2025-05-29 12:53:54.813 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.8893 ms
+2025-05-29 12:53:59.070 +06:00 [INF] HTTP GET /Products/Index responded 200 in 25.7741 ms
+2025-05-29 12:54:00.673 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.1652 ms
+2025-05-29 12:54:06.653 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.6756 ms
+2025-05-29 12:54:08.231 +06:00 [INF] HTTP GET /Products/Index responded 200 in 4.3491 ms
+2025-05-29 13:00:11.115 +06:00 [INF] HTTP GET /Products/Index responded 200 in 143.0556 ms
+2025-05-29 13:00:11.169 +06:00 [INF] HTTP GET /api/Carts responded 200 in 13.9954 ms
+2025-05-29 13:00:11.310 +06:00 [INF] HTTP GET /Products/Index responded 200 in 154.8121 ms
+2025-05-29 13:00:25.626 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.2517 ms
+2025-05-29 13:00:25.674 +06:00 [INF] HTTP GET /api/Carts responded 200 in 8.6154 ms
+2025-05-29 13:00:25.682 +06:00 [INF] HTTP GET /Products/Index responded 200 in 16.4517 ms
+2025-05-29 13:00:33.459 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.7966 ms
+2025-05-29 13:00:33.530 +06:00 [INF] HTTP GET /Products/Index responded 200 in 9.0101 ms
+2025-05-29 13:00:33.532 +06:00 [INF] HTTP GET /api/Carts responded 200 in 3.8646 ms
+2025-05-29 13:00:42.181 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.6744 ms
+2025-05-29 13:00:42.358 +06:00 [INF] HTTP GET /api/Carts responded 200 in 8.8059 ms
+2025-05-29 13:00:42.363 +06:00 [INF] HTTP GET /Products/Index responded 200 in 14.3788 ms
+2025-05-29 13:00:42.862 +06:00 [INF] HTTP GET /favicon.ico responded 404 in 0.1824 ms
+2025-05-29 13:02:03.531 +06:00 [INF] HTTP GET /Products/Index responded 200 in 10.3851 ms
+2025-05-29 13:02:03.659 +06:00 [INF] HTTP GET /api/Carts responded 200 in 4.0194 ms
+2025-05-29 13:02:03.663 +06:00 [INF] HTTP GET /Products/Index responded 200 in 8.8643 ms
+2025-05-29 13:02:03.941 +06:00 [INF] HTTP GET /favicon.ico responded 404 in 0.8368 ms
+2025-05-29 13:02:05.573 +06:00 [INF] HTTP GET /Products/Index responded 200 in 139.4544 ms
+2025-05-29 13:02:06.227 +06:00 [INF] HTTP GET /api/Carts responded 200 in 3.7684 ms
+2025-05-29 13:02:06.229 +06:00 [INF] HTTP GET /Products/Index responded 200 in 5.4912 ms
+2025-05-29 13:02:12.902 +06:00 [INF] HTTP GET /Products/Index responded 200 in 29.6114 ms
+2025-05-29 13:02:12.954 +06:00 [INF] HTTP GET /Products/Index responded 200 in 14.7592 ms
+2025-05-29 13:02:12.954 +06:00 [INF] HTTP GET /api/Carts responded 200 in 14.8730 ms
+2025-05-29 13:02:13.885 +06:00 [INF] HTTP GET /Products/Index responded 200 in 22.3218 ms
+2025-05-29 13:02:13.954 +06:00 [INF] HTTP GET /Products/Index responded 200 in 9.2093 ms
+2025-05-29 13:02:13.956 +06:00 [INF] HTTP GET /api/Carts responded 200 in 11.1415 ms
+2025-05-29 13:02:14.201 +06:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0998 ms
+2025-05-29 13:02:58 [Information] Starting MyApp...
+2025-05-29 13:04:05 [Warning] Failed to determine the https port for redirect.
+2025-05-29 13:04:06 [Information] HTTP "GET" "/Products/Index" responded 200 in 1570.5142 ms
+2025-05-29 13:04:07 [Information] HTTP "GET" "/favicon.ico" responded 404 in 6.5547 ms
+2025-05-29 13:04:07 [Information] HTTP "GET" "/Products/Index" responded 200 in 404.3659 ms
+2025-05-29 13:04:07 [Information] HTTP "GET" "/api/Carts" responded 200 in 464.6307 ms
+2025-05-29 13:04:08 [Information] HTTP "GET" "/Products/Index" responded 200 in 56.6805 ms
+2025-05-29 13:04:09 [Information] HTTP "GET" "/Products/Index" responded 200 in 21.0769 ms
+2025-05-29 13:04:09 [Information] HTTP "GET" "/api/Carts" responded 200 in 29.2823 ms
+2025-05-29 13:04:11 [Information] HTTP "GET" "/Products/Index" responded 200 in 36.9022 ms
+2025-05-29 13:04:11 [Information] HTTP "GET" "/Products/Index" responded 200 in 16.2355 ms
+2025-05-29 13:04:11 [Information] HTTP "GET" "/api/Carts" responded 200 in 29.1774 ms
+2025-05-29 13:04:11 [Information] HTTP "GET" "/favicon.ico" responded 404 in 0.1524 ms

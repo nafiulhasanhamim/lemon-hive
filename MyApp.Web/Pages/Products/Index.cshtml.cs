@@ -38,9 +38,9 @@ public class IndexModel : PageModel
         Products = result.Items.ToList();
         TotalProducts = result.TotalCount;
 
-        TotalVendors = 8;      
-        CartCount = 0;      
-        UniqueCount = result.UniqueCount;        
+        TotalVendors = 8;
+        CartCount = 0;
+        UniqueCount = result.UniqueCount;
 
         if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
         {

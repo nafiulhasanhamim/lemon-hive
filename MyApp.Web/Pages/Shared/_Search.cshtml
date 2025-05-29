@@ -1,0 +1,14 @@
+@* /Pages/Shared/_Search.cshtml *@
+@model IndexModel
+
+<section class="search-section">
+  <div class="search-bar">
+    <input type="text" id="searchInput" class="search-input"
+           placeholder="Search…" value="@Model.SearchText" />
+    <button id="searchBtn" class="search-btn">Search</button>
+    <button id="addProductBtn" class="add-product-btn">Add Product</button>
+  </div>
+  <div class="results-info" id="resultsInfo">
+    Showing @Model.StartResult–@Model.EndResult of @Model.TotalResults results
+  </div>
+</section>

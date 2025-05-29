@@ -1,0 +1,52 @@
+2025-05-29 05:46:58.676 +06:00 [INF] Starting MyApp...
+2025-05-29 05:47:07.123 +06:00 [WRN] Failed to determine the https port for redirect.
+2025-05-29 05:47:08.084 +06:00 [INF] HTTP GET /Products/Index responded 200 in 951.7205 ms
+2025-05-29 05:47:08.406 +06:00 [INF] HTTP GET /Products/Index responded 200 in 268.3615 ms
+2025-05-29 05:47:08.427 +06:00 [INF] HTTP GET /api/Carts responded 200 in 289.4751 ms
+2025-05-29 05:47:48.707 +06:00 [INF] HTTP GET /Products/Index responded 200 in 28.7382 ms
+2025-05-29 05:47:48.775 +06:00 [INF] HTTP GET /Products/Index responded 200 in 10.3621 ms
+2025-05-29 05:47:48.947 +06:00 [INF] HTTP GET /api/Carts responded 200 in 180.1769 ms
+2025-05-29 05:47:50.818 +06:00 [INF] HTTP GET /Products/Index responded 200 in 12.6167 ms
+2025-05-29 05:47:50.879 +06:00 [INF] HTTP GET /api/Carts responded 200 in 5.1949 ms
+2025-05-29 05:47:50.882 +06:00 [INF] HTTP GET /Products/Index responded 200 in 8.5301 ms
+2025-05-29 05:47:56.553 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.9815 ms
+2025-05-29 05:47:56.622 +06:00 [INF] HTTP GET /api/Carts responded 200 in 4.7723 ms
+2025-05-29 05:47:56.625 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.4335 ms
+2025-05-29 05:47:57.577 +06:00 [INF] HTTP GET /Products/Index responded 200 in 25.6680 ms
+2025-05-29 05:47:57.627 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.4633 ms
+2025-05-29 05:47:57.703 +06:00 [INF] HTTP GET /Products/Index responded 200 in 19.6603 ms
+2025-05-29 05:47:57.704 +06:00 [INF] HTTP GET /api/Carts responded 200 in 20.9185 ms
+2025-05-29 05:48:20.020 +06:00 [INF] HTTP GET /Products/Index responded 200 in 19.8607 ms
+2025-05-29 05:48:20.052 +06:00 [INF] HTTP GET /Products/Index responded 200 in 28.8037 ms
+2025-05-29 05:48:20.083 +06:00 [INF] HTTP GET /Products/Index responded 200 in 6.0935 ms
+2025-05-29 05:48:20.087 +06:00 [INF] HTTP GET /api/Carts responded 200 in 9.8171 ms
+2025-05-29 05:51:41.405 +06:00 [INF] HTTP GET /Products/Index responded 200 in 8.1198 ms
+2025-05-29 05:51:41.425 +06:00 [INF] HTTP GET /Products/Index responded 200 in 7.5731 ms
+2025-05-29 05:51:41.480 +06:00 [INF] HTTP GET /Products/Index responded 200 in 9.1962 ms
+2025-05-29 05:51:41.484 +06:00 [INF] HTTP GET /api/Carts responded 200 in 13.3115 ms
+2025-05-29 05:54:46 [Information] Starting MyApp...
+2025-05-29 05:54:51 [Warning] Failed to determine the https port for redirect.
+2025-05-29 05:54:52 [Information] HTTP "GET" "/Products/Index" responded 200 in 990.3787 ms
+2025-05-29 05:54:52 [Information] HTTP "GET" "/Products/Index" responded 200 in 284.4621 ms
+2025-05-29 05:54:52 [Information] HTTP "GET" "/api/Carts" responded 200 in 341.1864 ms
+2025-05-29 05:55:25 [Information] HTTP "GET" "/Products/Index" responded 200 in 21.4066 ms
+2025-05-29 05:55:25 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.2844 ms
+2025-05-29 05:55:25 [Information] HTTP "GET" "/api/Carts" responded 200 in 215.7460 ms
+2025-05-29 05:55:29 [Information] HTTP "GET" "/Products/Index" responded 200 in 37.9182 ms
+2025-05-29 05:55:29 [Information] HTTP "GET" "/Products/Index" responded 200 in 20.1636 ms
+2025-05-29 05:55:29 [Information] HTTP "GET" "/api/Carts" responded 200 in 20.7066 ms
+2025-05-29 05:55:49 [Information] HTTP "GET" "/.well-known/appspecific/com.chrome.devtools.json" responded 404 in 0.4527 ms
+2025-05-29 05:56:33 [Information] HTTP "GET" "/Products/Index" responded 200 in 7.1448 ms
+2025-05-29 05:56:33 [Information] HTTP "GET" "/.well-known/appspecific/com.chrome.devtools.json" responded 404 in 0.1083 ms
+2025-05-29 05:56:33 [Information] HTTP "GET" "/Products/Index" responded 200 in 13.4699 ms
+2025-05-29 05:56:33 [Information] HTTP "GET" "/api/Carts" responded 200 in 15.3482 ms
+2025-05-29 05:56:36 [Information] HTTP "GET" "/Products/Index" responded 200 in 12.5932 ms
+2025-05-29 05:56:36 [Information] HTTP "GET" "/.well-known/appspecific/com.chrome.devtools.json" responded 404 in 0.1074 ms
+2025-05-29 05:56:36 [Information] HTTP "GET" "/api/Carts" responded 200 in 2.9368 ms
+2025-05-29 05:56:36 [Information] HTTP "GET" "/Products/Index" responded 200 in 5.7038 ms
+2025-05-29 05:57:27 [Information] HTTP "GET" "/Products/Index" responded 200 in 12.1047 ms
+2025-05-29 05:57:27 [Information] HTTP "GET" "/api/Carts" responded 200 in 17.7935 ms
+2025-05-29 05:57:27 [Information] HTTP "GET" "/Products/Index" responded 200 in 17.8245 ms
+2025-05-29 05:57:31 [Information] HTTP "GET" "/Products/Index" responded 200 in 9.2702 ms
+2025-05-29 05:57:31 [Information] HTTP "GET" "/api/Carts" responded 200 in 2.2714 ms
+2025-05-29 05:57:31 [Information] HTTP "GET" "/Products/Index" responded 200 in 4.0173 ms
