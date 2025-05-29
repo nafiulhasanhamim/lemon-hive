@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AOb84xRNP5oTIdut/C4gpYJM2OXcyVWWe+3YhnLTK8U=",
+  "Hash": "MJ5xhusztvlJWU/O+hL+e5IXxX7fODDByH0veVJYDcg=",
   "Source": "lemonhive",
   "BasePath": "_content/lemonhive",
   "Mode": "Default",
@@ -17,6 +17,174 @@
   ],
   "Assets": [
     {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\base.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/base#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "66hwfnqipb",
+      "Integrity": "7mm5knZZEAFla5S3B0bkvTLzcxuG5dLqdLDXs3Zl8cE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\base.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\cart.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/cart#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qr47qv34rf",
+      "Integrity": "GoZ5/xCGgy+S5/9kFi3hA3mQ3diIN8iqQT6H33QXqt0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cart.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\header.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/header#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4h83iiqspl",
+      "Integrity": "qMciK9/HMsVD5mOudwxHW7DEIBYezB0ZNCl44mdfbOI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\header.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\modal.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/modal#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ld3gqp3v9",
+      "Integrity": "hW9HqG+Mkx0qL/JtO6eIiBtBoFuRbX5KtwdhoDVaQzw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\modal.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\pagination.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/pagination#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dfymsij5mk",
+      "Integrity": "yesYjdOEFh8zE/kfKcpSD3wWQ2dHnWuehF2kzgsXvk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pagination.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\products.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/products#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2i5hu2blsq",
+      "Integrity": "5rMIV3S9VZyAI+x7ZEf4429Jgu2cQwmPBRzLdSeQF58=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\products.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\responsive.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/responsive#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tdiqpk0kjh",
+      "Integrity": "kWicNAoXk2179ZTuDI76mTDnmvshR7hV6f9d9cFgl1k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\responsive.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\search.css",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "css/search#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "294hl9ouhh",
+      "Integrity": "xijAOEaPHkgICj9tjNsgXjDhapUPzMCksAIX4DXptmM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\search.css"
+    },
+    {
       "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\site.css",
       "SourceId": "lemonhive",
       "SourceType": "Discovered",
@@ -31,19 +199,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8rzfj1ul46",
-      "Integrity": "POYn8ewY2G6aJQ+CkRvZ5RZI7qR7Y8CTlsQ4H3bZoMc=",
+      "Fingerprint": "h90byib2lt",
+      "Integrity": "6w/mmUSRJGHWI3I7vBmvw+XGyUp8QCrwi200fv0bsP4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\home.js",
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\stats.css",
       "SourceId": "lemonhive",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
       "BasePath": "_content/lemonhive",
-      "RelativePath": "js/home#[.{fingerprint}]?.js",
+      "RelativePath": "css/stats#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,17 +220,164 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dkugpeha14",
-      "Integrity": "vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs=",
+      "Fingerprint": "bwevmlm5v4",
+      "Integrity": "1biUwYZbkiGxacJ3r6b4qM/b7ccSDkE4oHntAJo25OI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\home.js"
+      "OriginalItemSpec": "wwwroot\\css\\stats.css"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\cart.js",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "js/cart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rhkj5ungd8",
+      "Integrity": "f7t45mJnS04+PHDrmIzm/3EPrXYr4Zc5lXwbhMLpYBQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cart.js"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\init.js",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "js/init#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vm6c9cc6i5",
+      "Integrity": "l0W/gXy/V7kvBFcUUzYa5b4Gxt2aUF/NyQnuu7Fj0J8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\init.js"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\main.js",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lf4pkaqssz",
+      "Integrity": "T4H0mBGIMqmiEiVyab1w0Zvn78dbrucFbz4A7AeG9qw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\modal.js",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "js/modal#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rat789pzaf",
+      "Integrity": "E6zTbnN7dBQLgrAUnvHQwxSjPNgdXFGfJO338j2xxmw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\modal.js"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\products.js",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "js/products#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mvbmviprez",
+      "Integrity": "XsOS2yzXu9XWx0TNmEtOEjRAgGDHX3UO31gzZr0zpi4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\products.js"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\state.js",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "js/state#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3s1q09mnid",
+      "Integrity": "g2+7p5M7Knw09XvYHF7wS9kOiv10kDQoLLkvrBzRO7k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\state.js"
+    },
+    {
+      "Identity": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\utilities.js",
+      "SourceId": "lemonhive",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\",
+      "BasePath": "_content/lemonhive",
+      "RelativePath": "js/utilities#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "labyvoimsc",
+      "Integrity": "reym3aZWs996Q684MPY0FLc/oKfUC26K3gwR3mdKKAM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\utilities.js"
     }
   ],
   "Endpoints": [
     {
-      "Route": "css/site.8rzfj1ul46.css",
-      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\site.css",
+      "Route": "css/base.66hwfnqipb.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\base.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71,7 +386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17085"
+          "Value": "719"
         },
         {
           "Name": "Content-Type",
@@ -79,11 +394,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"POYn8ewY2G6aJQ+CkRvZ5RZI7qR7Y8CTlsQ4H3bZoMc=\""
+          "Value": "\"7mm5knZZEAFla5S3B0bkvTLzcxuG5dLqdLDXs3Zl8cE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 03:38:13 GMT"
+          "Value": "Wed, 28 May 2025 19:09:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -93,15 +408,626 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8rzfj1ul46"
+          "Value": "66hwfnqipb"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/base.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-POYn8ewY2G6aJQ+CkRvZ5RZI7qR7Y8CTlsQ4H3bZoMc="
+          "Value": "sha256-7mm5knZZEAFla5S3B0bkvTLzcxuG5dLqdLDXs3Zl8cE="
+        }
+      ]
+    },
+    {
+      "Route": "css/base.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7mm5knZZEAFla5S3B0bkvTLzcxuG5dLqdLDXs3Zl8cE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:09:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7mm5knZZEAFla5S3B0bkvTLzcxuG5dLqdLDXs3Zl8cE="
+        }
+      ]
+    },
+    {
+      "Route": "css/cart.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\cart.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GoZ5/xCGgy+S5/9kFi3hA3mQ3diIN8iqQT6H33QXqt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:35:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GoZ5/xCGgy+S5/9kFi3hA3mQ3diIN8iqQT6H33QXqt0="
+        }
+      ]
+    },
+    {
+      "Route": "css/cart.qr47qv34rf.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\cart.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GoZ5/xCGgy+S5/9kFi3hA3mQ3diIN8iqQT6H33QXqt0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:35:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qr47qv34rf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cart.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GoZ5/xCGgy+S5/9kFi3hA3mQ3diIN8iqQT6H33QXqt0="
+        }
+      ]
+    },
+    {
+      "Route": "css/header.4h83iiqspl.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\header.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qMciK9/HMsVD5mOudwxHW7DEIBYezB0ZNCl44mdfbOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 18:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4h83iiqspl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/header.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qMciK9/HMsVD5mOudwxHW7DEIBYezB0ZNCl44mdfbOI="
+        }
+      ]
+    },
+    {
+      "Route": "css/header.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\header.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qMciK9/HMsVD5mOudwxHW7DEIBYezB0ZNCl44mdfbOI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 18:56:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qMciK9/HMsVD5mOudwxHW7DEIBYezB0ZNCl44mdfbOI="
+        }
+      ]
+    },
+    {
+      "Route": "css/modal.1ld3gqp3v9.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\modal.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hW9HqG+Mkx0qL/JtO6eIiBtBoFuRbX5KtwdhoDVaQzw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:35:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ld3gqp3v9"
+        },
+        {
+          "Name": "label",
+          "Value": "css/modal.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW9HqG+Mkx0qL/JtO6eIiBtBoFuRbX5KtwdhoDVaQzw="
+        }
+      ]
+    },
+    {
+      "Route": "css/modal.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\modal.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hW9HqG+Mkx0qL/JtO6eIiBtBoFuRbX5KtwdhoDVaQzw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:35:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hW9HqG+Mkx0qL/JtO6eIiBtBoFuRbX5KtwdhoDVaQzw="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagination.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\pagination.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yesYjdOEFh8zE/kfKcpSD3wWQ2dHnWuehF2kzgsXvk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:33:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yesYjdOEFh8zE/kfKcpSD3wWQ2dHnWuehF2kzgsXvk8="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagination.dfymsij5mk.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\pagination.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yesYjdOEFh8zE/kfKcpSD3wWQ2dHnWuehF2kzgsXvk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:33:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dfymsij5mk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pagination.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yesYjdOEFh8zE/kfKcpSD3wWQ2dHnWuehF2kzgsXvk8="
+        }
+      ]
+    },
+    {
+      "Route": "css/products.2i5hu2blsq.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\products.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5rMIV3S9VZyAI+x7ZEf4429Jgu2cQwmPBRzLdSeQF58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2i5hu2blsq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/products.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5rMIV3S9VZyAI+x7ZEf4429Jgu2cQwmPBRzLdSeQF58="
+        }
+      ]
+    },
+    {
+      "Route": "css/products.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\products.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5rMIV3S9VZyAI+x7ZEf4429Jgu2cQwmPBRzLdSeQF58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5rMIV3S9VZyAI+x7ZEf4429Jgu2cQwmPBRzLdSeQF58="
+        }
+      ]
+    },
+    {
+      "Route": "css/responsive.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\responsive.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kWicNAoXk2179ZTuDI76mTDnmvshR7hV6f9d9cFgl1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:33:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kWicNAoXk2179ZTuDI76mTDnmvshR7hV6f9d9cFgl1k="
+        }
+      ]
+    },
+    {
+      "Route": "css/responsive.tdiqpk0kjh.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\responsive.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kWicNAoXk2179ZTuDI76mTDnmvshR7hV6f9d9cFgl1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 19:33:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdiqpk0kjh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/responsive.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kWicNAoXk2179ZTuDI76mTDnmvshR7hV6f9d9cFgl1k="
+        }
+      ]
+    },
+    {
+      "Route": "css/search.294hl9ouhh.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\search.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xijAOEaPHkgICj9tjNsgXjDhapUPzMCksAIX4DXptmM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 18:58:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "294hl9ouhh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/search.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xijAOEaPHkgICj9tjNsgXjDhapUPzMCksAIX4DXptmM="
+        }
+      ]
+    },
+    {
+      "Route": "css/search.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\search.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xijAOEaPHkgICj9tjNsgXjDhapUPzMCksAIX4DXptmM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 18:58:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xijAOEaPHkgICj9tjNsgXjDhapUPzMCksAIX4DXptmM="
         }
       ]
     },
@@ -116,7 +1042,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17085"
+          "Value": "20124"
         },
         {
           "Name": "Content-Type",
@@ -124,11 +1050,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"POYn8ewY2G6aJQ+CkRvZ5RZI7qR7Y8CTlsQ4H3bZoMc=\""
+          "Value": "\"6w/mmUSRJGHWI3I7vBmvw+XGyUp8QCrwi200fv0bsP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 03:38:13 GMT"
+          "Value": "Thu, 29 May 2025 09:20:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -138,13 +1064,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-POYn8ewY2G6aJQ+CkRvZ5RZI7qR7Y8CTlsQ4H3bZoMc="
+          "Value": "sha256-6w/mmUSRJGHWI3I7vBmvw+XGyUp8QCrwi200fv0bsP4="
         }
       ]
     },
     {
-      "Route": "js/home.dkugpeha14.js",
-      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\home.js",
+      "Route": "css/site.h90byib2lt.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -153,19 +1079,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3958"
+          "Value": "20124"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs=\""
+          "Value": "\"6w/mmUSRJGHWI3I7vBmvw+XGyUp8QCrwi200fv0bsP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 03:06:52 GMT"
+          "Value": "Thu, 29 May 2025 09:20:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -175,21 +1101,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dkugpeha14"
+          "Value": "h90byib2lt"
         },
         {
           "Name": "label",
-          "Value": "js/home.js"
+          "Value": "css/site.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs="
+          "Value": "sha256-6w/mmUSRJGHWI3I7vBmvw+XGyUp8QCrwi200fv0bsP4="
         }
       ]
     },
     {
-      "Route": "js/home.js",
-      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\home.js",
+      "Route": "css/stats.bwevmlm5v4.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\stats.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -198,19 +1124,64 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3958"
+          "Value": "803"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs=\""
+          "Value": "\"1biUwYZbkiGxacJ3r6b4qM/b7ccSDkE4oHntAJo25OI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 03:06:52 GMT"
+          "Value": "Wed, 28 May 2025 18:57:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwevmlm5v4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/stats.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1biUwYZbkiGxacJ3r6b4qM/b7ccSDkE4oHntAJo25OI="
+        }
+      ]
+    },
+    {
+      "Route": "css/stats.css",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\css\\stats.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1biUwYZbkiGxacJ3r6b4qM/b7ccSDkE4oHntAJo25OI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 18:57:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -220,7 +1191,581 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vT8xz+nLZ59bVy4m1a/gz/h6LfTgX4hBpEVTsOWQlRs="
+          "Value": "sha256-1biUwYZbkiGxacJ3r6b4qM/b7ccSDkE4oHntAJo25OI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\cart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7t45mJnS04+PHDrmIzm/3EPrXYr4Zc5lXwbhMLpYBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7t45mJnS04+PHDrmIzm/3EPrXYr4Zc5lXwbhMLpYBQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.rhkj5ungd8.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\cart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7t45mJnS04+PHDrmIzm/3EPrXYr4Zc5lXwbhMLpYBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:22:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rhkj5ungd8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7t45mJnS04+PHDrmIzm/3EPrXYr4Zc5lXwbhMLpYBQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/init.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\init.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5779"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l0W/gXy/V7kvBFcUUzYa5b4Gxt2aUF/NyQnuu7Fj0J8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l0W/gXy/V7kvBFcUUzYa5b4Gxt2aUF/NyQnuu7Fj0J8="
+        }
+      ]
+    },
+    {
+      "Route": "js/init.vm6c9cc6i5.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\init.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5779"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l0W/gXy/V7kvBFcUUzYa5b4Gxt2aUF/NyQnuu7Fj0J8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vm6c9cc6i5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/init.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l0W/gXy/V7kvBFcUUzYa5b4Gxt2aUF/NyQnuu7Fj0J8="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4H0mBGIMqmiEiVyab1w0Zvn78dbrucFbz4A7AeG9qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:33:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T4H0mBGIMqmiEiVyab1w0Zvn78dbrucFbz4A7AeG9qw="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.lf4pkaqssz.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4H0mBGIMqmiEiVyab1w0Zvn78dbrucFbz4A7AeG9qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:33:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lf4pkaqssz"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T4H0mBGIMqmiEiVyab1w0Zvn78dbrucFbz4A7AeG9qw="
+        }
+      ]
+    },
+    {
+      "Route": "js/modal.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\modal.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E6zTbnN7dBQLgrAUnvHQwxSjPNgdXFGfJO338j2xxmw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:22:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E6zTbnN7dBQLgrAUnvHQwxSjPNgdXFGfJO338j2xxmw="
+        }
+      ]
+    },
+    {
+      "Route": "js/modal.rat789pzaf.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\modal.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E6zTbnN7dBQLgrAUnvHQwxSjPNgdXFGfJO338j2xxmw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:22:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rat789pzaf"
+        },
+        {
+          "Name": "label",
+          "Value": "js/modal.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E6zTbnN7dBQLgrAUnvHQwxSjPNgdXFGfJO338j2xxmw="
+        }
+      ]
+    },
+    {
+      "Route": "js/products.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\products.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XsOS2yzXu9XWx0TNmEtOEjRAgGDHX3UO31gzZr0zpi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:45:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XsOS2yzXu9XWx0TNmEtOEjRAgGDHX3UO31gzZr0zpi4="
+        }
+      ]
+    },
+    {
+      "Route": "js/products.mvbmviprez.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\products.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XsOS2yzXu9XWx0TNmEtOEjRAgGDHX3UO31gzZr0zpi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:45:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mvbmviprez"
+        },
+        {
+          "Name": "label",
+          "Value": "js/products.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XsOS2yzXu9XWx0TNmEtOEjRAgGDHX3UO31gzZr0zpi4="
+        }
+      ]
+    },
+    {
+      "Route": "js/state.3s1q09mnid.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\state.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2+7p5M7Knw09XvYHF7wS9kOiv10kDQoLLkvrBzRO7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:21:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3s1q09mnid"
+        },
+        {
+          "Name": "label",
+          "Value": "js/state.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2+7p5M7Knw09XvYHF7wS9kOiv10kDQoLLkvrBzRO7k="
+        }
+      ]
+    },
+    {
+      "Route": "js/state.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\state.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2+7p5M7Knw09XvYHF7wS9kOiv10kDQoLLkvrBzRO7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:21:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2+7p5M7Knw09XvYHF7wS9kOiv10kDQoLLkvrBzRO7k="
+        }
+      ]
+    },
+    {
+      "Route": "js/utilities.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\utilities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"reym3aZWs996Q684MPY0FLc/oKfUC26K3gwR3mdKKAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:21:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-reym3aZWs996Q684MPY0FLc/oKfUC26K3gwR3mdKKAM="
+        }
+      ]
+    },
+    {
+      "Route": "js/utilities.labyvoimsc.js",
+      "AssetFile": "E:\\FullStack\\Lemon-Hive-Assessment\\lemon-hive-assessment\\wwwroot\\js\\utilities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"reym3aZWs996Q684MPY0FLc/oKfUC26K3gwR3mdKKAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 22:21:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "labyvoimsc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/utilities.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-reym3aZWs996Q684MPY0FLc/oKfUC26K3gwR3mdKKAM="
         }
       ]
     }

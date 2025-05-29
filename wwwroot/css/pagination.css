@@ -1,0 +1,54 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.pagination button {
+  padding: 8px 12px;
+  border: 1px solid #e1e5e9;
+  background: white;
+  color: #666;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pagination button:hover {
+  background: #f8f9fa;
+}
+.pagination button.active {
+  background: #4285f4;
+  color: white;
+  border-color: #4285f4;
+}
+.pagination .dots {
+  padding: 8px 4px;
+}
+.per-page-select {
+  position: relative;
+}
+.per-page-btn {
+  padding: 8px 12px;
+  border: 1px solid #e1e5e9;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.per-page-dropdown {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.per-page-select:hover .per-page-dropdown {
+  display: block;
+}
+.per-page-option {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.per-page-option:hover {
+  background: #f8f9fa;
+}

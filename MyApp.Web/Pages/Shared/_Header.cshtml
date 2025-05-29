@@ -1,0 +1,14 @@
+@* /Pages/Shared/_Header.cshtml *@
+@model IndexModel
+
+<header class="header">
+  <div class="container">
+    <div class="header-content">
+      <div class="logo">E-Bazaar</div>
+      <div id="cartButton" class="cart">
+        <div class="cart-icon"></div>
+        Cart (<span id="cartCount">@Model.CartCount</span>)
+      </div>
+    </div>
+  </div>
+</header>

@@ -343,3 +343,8 @@ E:\FullStack\Lemon-Hive-Assessment\lemon-hive-clean-architecture\obj\Debug\net8.
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-clean-architecture\obj\Debug\net8.0\lemonhive.pdb
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-clean-architecture\obj\Debug\net8.0\lemonhive.genruntimeconfig.cache
 E:\FullStack\Lemon-Hive-Assessment\lemon-hive-clean-architecture\obj\Debug\net8.0\ref\lemonhive.dll
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\bin\Debug\net8.0\Elasticsearch.Net.dll
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\bin\Debug\net8.0\Serilog.Formatting.Elasticsearch.dll
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\bin\Debug\net8.0\Serilog.Sinks.Elasticsearch.dll
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\bin\Debug\net8.0\Serilog.Sinks.Http.dll
+E:\FullStack\Lemon-Hive-Assessment\lemon-hive-assessment\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll

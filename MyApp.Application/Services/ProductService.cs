@@ -27,7 +27,8 @@ namespace MyApp.Application.Services
                 Items = dtoList,
                 TotalCount = result.TotalCount,
                 PageNumber = result.PageNumber,
-                PageSize = result.PageSize
+                PageSize = result.PageSize,
+                UniqueCount = result.UniqueCount
             };
         }
 
